@@ -1,5 +1,0 @@
-Dataset,min_matrix_agreement,min_prediction_agreement
-SMS Spam,0.9819,0.987
-SST-2,0.9588,0.974
-ADE,0.9729,0.965
-Disaster Tweets,0.9658,0.945

@@ -1,9 +1,0 @@
-Dataset,Feature set,Feature group,Macro-F1
-SMS Spam,All features,All features,0.9373
-SMS Spam,Best single group,deception,0.948
-SST-2,All features,All features,0.9349
-SST-2,Best single group,negative sentiment,0.9314
-ADE,All features,All features,0.7577
-ADE,Best single group,causality/temporality,0.7105
-Disaster Tweets,All features,All features,0.8073
-Disaster Tweets,Best single group,disaster event,0.7905
