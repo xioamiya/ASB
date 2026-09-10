@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sms_alt_c01",
+    "question": "Does the message present an unexpected benefit, opportunity, reward, or entitlement for the recipient?",
+    "category": "offer_claims"
+  },
+  {
+    "id": "sms_alt_c02",
+    "question": "Does the message mention competitions, draws, claims, vouchers, credits, bonuses, or similar promotional incentives?",
+    "category": "offer_claims"
+  },
+  {
+    "id": "sms_alt_c03",
+    "question": "Does the message use a sales-like pitch for a service, product, subscription, dating line, entertainment, or content access?",
+    "category": "offer_claims"
+  },
+  {
+    "id": "sms_alt_c04",
+    "question": "Does the message suggest exclusivity, selection, eligibility, membership, VIP status, or special access?",
+    "category": "offer_claims"
+  },
+  {
+    "id": "sms_alt_c09",
+    "question": "Does the message mention currency amounts, cash, credit, loans, winnings, compensation, or financial value?",
+    "category": "financial_billing"
+  },
+  {
+    "id": "sms_alt_c10",
+    "question": "Does the message mention charges, fees, billing, balance, tariff, premium rate, or subscription cost?",
+    "category": "financial_billing"
+  },
+  {
+    "id": "sms_alt_c11",
+    "question": "Does the message mention saving money, discounts, cheap rates, reduced prices, or special deals?",
+    "category": "financial_billing"
+  },
+  {
+    "id": "sms_alt_c12",
+    "question": "Does the message mention bank, account, payment card, transaction, refund, or account status?",
+    "category": "financial_billing"
+  },
+  {
+    "id": "sms_alt_c17",
+    "question": "Does the message impose a time limit, deadline, expiry, final reminder, or limited availability?",
+    "category": "pressure_verification"
+  },
+  {
+    "id": "sms_alt_c18",
+    "question": "Does the message pressure the recipient by warning of loss, cancellation, suspension, or missed opportunity?",
+    "category": "pressure_verification"
+  },
+  {
+    "id": "sms_alt_c19",
+    "question": "Does the message ask the recipient to confirm, validate, activate, claim, register, or verify something?",
+    "category": "pressure_verification"
+  },
+  {
+    "id": "sms_alt_c20",
+    "question": "Does the message give a keyword, code, PIN, reference number, or instruction token for the recipient to use?",
+    "category": "pressure_verification"
+  },
+  {
+    "id": "sms_alt_c25",
+    "question": "Does the message contain or refer to a website, URL, email address, online form, or app link?",
+    "category": "contact_channel"
+  },
+  {
+    "id": "sms_alt_c27",
+    "question": "Does the message include a phone number, short code, service number, or other contact endpoint?",
+    "category": "contact_channel"
+  },
+  {
+    "id": "sms_alt_c29",
+    "question": "Does the message mention opt-out, stop instructions, terms, conditions, customer care, or subscription management?",
+    "category": "contact_channel"
+  },
+  {
+    "id": "sms_alt_c30",
+    "question": "Does the message appear to come from a company, operator, service, institution, or automated notification?",
+    "category": "contact_channel"
+  },
+  {
+    "id": "sms_alt_c33",
+    "question": "Does the message refer to shared plans, daily logistics, errands, travel, meals, school, work, family, or friends?",
+    "category": "personal_context"
+  },
+  {
+    "id": "sms_alt_c34",
+    "question": "Does the message depend on prior shared context, such as \"see you\", \"call me\", \"I told you\", or ongoing conversation?",
+    "category": "personal_context"
+  },
+  {
+    "id": "sms_alt_c35",
+    "question": "Does the message use informal affection, teasing, apology, humor, greetings, or personal emotional language?",
+    "category": "personal_context"
+  },
+  {
+    "id": "sms_alt_c36",
+    "question": "Does the message mainly coordinate a real-world personal action rather than advertise, verify, or sell something?",
+    "category": "personal_context"
+  }
+]

@@ -1,0 +1,5 @@
+Dataset,High proxy features,Medium proxy features,Low proxy features,High-signal semantic proxy,Mechanistic evidence,Counter-proxy / negative evidence,Top associated features
+SMS Spam,9,8,3,6,10,4,"normal_personal_conversation (not spam, gap=0.9414); uses_promotional_or_marketing_claim (spam, gap=0.8747); uses_casual_emotional_language (not spam, gap=0.8076)"
+SST-2,7,5,8,3,4,13,"expresses_positive_emotion (positive, gap=0.7992); contains_praise (positive, gap=0.7876); expresses_negative_emotion (not positive, gap=0.7792)"
+ADE,2,4,14,2,12,6,"links_event_to_medication (ade, gap=0.6417); mentions_adverse_reaction (ade, gap=0.5503); mentions_medication_or_drug (ade, gap=0.3982)"
+Disaster Tweets,6,8,6,5,10,5,"mentions_disaster_type (real disaster, gap=0.5533); reports_event_occurrence (real disaster, gap=0.5465); discusses_non_event_context (not real disaster, gap=0.5379)"

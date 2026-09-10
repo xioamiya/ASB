@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ade_alt_c01",
+    "question": "Does the sentence mention a drug, medication, vaccine, biologic, therapy, or pharmacological treatment exposure?",
+    "category": "treatment_exposure"
+  },
+  {
+    "id": "ade_alt_c02",
+    "question": "Does the sentence mention dose, route, schedule, frequency, concentration, duration, or amount of a treatment?",
+    "category": "treatment_exposure"
+  },
+  {
+    "id": "ade_alt_c03",
+    "question": "Does the sentence mention starting, stopping, reducing, increasing, switching, withholding, or restarting a treatment?",
+    "category": "treatment_exposure"
+  },
+  {
+    "id": "ade_alt_c04",
+    "question": "Does the sentence mention concomitant therapy, combination therapy, co-medication, interaction, or multiple treatments?",
+    "category": "treatment_exposure"
+  },
+  {
+    "id": "ade_alt_c09",
+    "question": "Does the sentence describe a new, worsening, abnormal, or clinically concerning symptom, sign, or diagnosis?",
+    "category": "patient_event"
+  },
+  {
+    "id": "ade_alt_c10",
+    "question": "Does the sentence mention organ-system problems such as skin, liver, kidney, cardiac, neurological, gastrointestinal, or respiratory events?",
+    "category": "patient_event"
+  },
+  {
+    "id": "ade_alt_c11",
+    "question": "Does the sentence mention abnormal laboratory values, imaging findings, test results, biomarkers, or diagnostic measurements?",
+    "category": "patient_event"
+  },
+  {
+    "id": "ade_alt_c12",
+    "question": "Does the sentence mention severe outcomes such as hospitalization, disability, life-threatening illness, death, emergency care, or serious complication?",
+    "category": "patient_event"
+  },
+  {
+    "id": "ade_alt_c17",
+    "question": "Does the sentence indicate that the clinical event happened after, during, following, or soon after treatment exposure?",
+    "category": "relation_evidence"
+  },
+  {
+    "id": "ade_alt_c18",
+    "question": "Does the sentence attribute, associate, link, induce, cause, trigger, precipitate, or relate a clinical event to treatment?",
+    "category": "relation_evidence"
+  },
+  {
+    "id": "ade_alt_c19",
+    "question": "Does the sentence mention dechallenge, rechallenge, recurrence, improvement after withdrawal, or worsening after re-exposure?",
+    "category": "relation_evidence"
+  },
+  {
+    "id": "ade_alt_c20",
+    "question": "Does the sentence describe dose dependence, dose escalation, dose reduction, toxicity threshold, or concentration-related effects?",
+    "category": "relation_evidence"
+  },
+  {
+    "id": "ade_alt_c29",
+    "question": "Does the sentence use hedging language such as may, might, possible, suspected, likely, unlikely, or cannot exclude?",
+    "category": "uncertainty_exclusion"
+  },
+  {
+    "id": "ade_alt_c26",
+    "question": "Does the sentence explicitly deny, rule out, or report absence of a symptom, toxicity, complication, or treatment-related event?",
+    "category": "uncertainty_exclusion"
+  },
+  {
+    "id": "ade_alt_c27",
+    "question": "Does the sentence give an alternative explanation such as underlying disease, infection, procedure, comorbidity, or non-drug cause?",
+    "category": "uncertainty_exclusion"
+  },
+  {
+    "id": "ade_alt_c28",
+    "question": "Does the sentence state that the event was unrelated, not attributable, not associated, tolerated, or without adverse effects?",
+    "category": "uncertainty_exclusion"
+  },
+  {
+    "id": "ade_alt_c37",
+    "question": "Does the sentence report animal, in vitro, molecular, or preclinical findings rather than a human patient event?",
+    "category": "non_case_context"
+  },
+  {
+    "id": "ade_alt_c39",
+    "question": "Does the sentence focus on data collection, methods, inclusion criteria, endpoints, or statistical results rather than a specific clinical event?",
+    "category": "non_case_context"
+  },
+  {
+    "id": "ade_alt_c35",
+    "question": "Does the sentence discuss pharmacology, mechanism, metabolism, pharmacokinetics, receptor effects, or laboratory mechanism rather than a patient event?",
+    "category": "non_case_context"
+  },
+  {
+    "id": "ade_alt_c36",
+    "question": "Does the sentence describe disease background, epidemiology, prognosis, diagnosis, or clinical context without tying harm to treatment?",
+    "category": "non_case_context"
+  }
+]

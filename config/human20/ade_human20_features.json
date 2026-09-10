@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mentions_medication_or_drug",
+    "question": "Does the text mention a medication, drug, treatment, or pharmaceutical product?",
+    "category": "medication"
+  },
+  {
+    "id": "mentions_dose_or_frequency",
+    "question": "Does the text mention dose, dosage, frequency, administration route, or medication amount?",
+    "category": "medication"
+  },
+  {
+    "id": "mentions_drug_discontinuation",
+    "question": "Does the text mention stopping, withdrawing, discontinuing, reducing, switching, or changing a medication?",
+    "category": "medication"
+  },
+  {
+    "id": "mentions_drug_interaction",
+    "question": "Does the text mention an interaction between drugs, treatments, substances, or co-medications?",
+    "category": "medication"
+  },
+  {
+    "id": "mentions_symptom_or_condition",
+    "question": "Does the text mention a symptom, medical condition, abnormal finding, or health problem?",
+    "category": "clinical_event"
+  },
+  {
+    "id": "mentions_adverse_reaction",
+    "question": "Does the text describe an adverse reaction, side effect, toxicity, complication, or harm?",
+    "category": "clinical_event"
+  },
+  {
+    "id": "mentions_severity",
+    "question": "Does the text mention severity, seriousness, hospitalization, life-threatening events, disability, or death?",
+    "category": "clinical_event"
+  },
+  {
+    "id": "mentions_lab_or_diagnostic_abnormality",
+    "question": "Does the text mention a laboratory abnormality, diagnostic finding, imaging result, or test result?",
+    "category": "clinical_event"
+  },
+  {
+    "id": "links_event_to_medication",
+    "question": "Does the text suggest that a clinical event is linked to a medication or treatment?",
+    "category": "causality_temporality"
+  },
+  {
+    "id": "mentions_temporal_after_use",
+    "question": "Does the text indicate that a symptom or event occurred after medication use or treatment exposure?",
+    "category": "causality_temporality"
+  },
+  {
+    "id": "mentions_rechallenge_or_recovery",
+    "question": "Does the text mention recovery after stopping a drug, recurrence after restarting, or rechallenge?",
+    "category": "causality_temporality"
+  },
+  {
+    "id": "mentions_onset_or_duration",
+    "question": "Does the text mention onset timing, duration, progression, or time course of a clinical event?",
+    "category": "causality_temporality"
+  },
+  {
+    "id": "contains_negation_no_event",
+    "question": "Does the text explicitly say that an adverse event, symptom, toxicity, or complication did not occur?",
+    "category": "negation_uncertainty"
+  },
+  {
+    "id": "contains_uncertainty_or_possible",
+    "question": "Does the text express uncertainty, possibility, suspicion, or lack of confirmation about a clinical event or drug link?",
+    "category": "negation_uncertainty"
+  },
+  {
+    "id": "states_alternative_cause",
+    "question": "Does the text suggest that the clinical event may have another cause besides a medication?",
+    "category": "negation_uncertainty"
+  },
+  {
+    "id": "reports_no_drug_link",
+    "question": "Does the text explicitly state that a clinical event is unrelated, not attributable, or not linked to a medication?",
+    "category": "negation_uncertainty"
+  },
+  {
+    "id": "mentions_study_or_trial_context",
+    "question": "Does the text describe a study, trial, review, background statement, or general research context rather than a patient event?",
+    "category": "non_ade_context"
+  },
+  {
+    "id": "mentions_expected_therapeutic_effect",
+    "question": "Does the text mainly describe intended therapeutic benefit, efficacy, indication, or treatment response?",
+    "category": "non_ade_context"
+  },
+  {
+    "id": "describes_indication_or_background",
+    "question": "Does the text describe disease background, treatment indication, or clinical context without an adverse event?",
+    "category": "non_ade_context"
+  },
+  {
+    "id": "discusses_general_pharmacology",
+    "question": "Does the text discuss pharmacology, mechanism, metabolism, or general drug properties rather than a specific adverse event?",
+    "category": "non_ade_context"
+  }
+]

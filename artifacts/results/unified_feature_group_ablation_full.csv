@@ -1,0 +1,25 @@
+Dataset,Feature group used,#Features,Accuracy,Macro-F1,Positive F1
+SMS Spam,All features,20,0.9710,0.9373,0.8914
+SMS Spam,Only deception,4,0.9770,0.9480,0.9091
+SMS Spam,Only money,4,0.9260,0.8396,0.7218
+SMS Spam,Only urgency,4,0.8880,0.7348,0.5333
+SMS Spam,Only action request,4,0.9440,0.8844,0.8014
+SMS Spam,Only personal/normal,4,0.9640,0.9239,0.8686
+SST-2,All features,20,0.9360,0.9349,0.9433
+SST-2,Only positive sentiment,4,0.8930,0.8930,0.8948
+SST-2,Only negative sentiment,4,0.9330,0.9314,0.9420
+SST-2,Only aspect evaluation,4,0.6800,0.6796,0.6680
+SST-2,Only uncertainty/irony,4,0.5550,0.5545,0.5700
+SST-2,Only recommendation,4,0.6060,0.6020,0.5622
+ADE,All features,20,0.7980,0.7577,0.6588
+ADE,Only medication,4,0.5220,0.5155,0.4593
+ADE,Only clinical event,4,0.6890,0.6607,0.5626
+ADE,Only causality/temporality,4,0.7450,0.7105,0.6107
+ADE,Only negation/uncertainty,4,0.7610,0.5377,0.2164
+ADE,Only non-ADE context,4,0.5220,0.4995,0.3934
+Disaster Tweets,All features,20,0.8160,0.8073,0.7665
+Disaster Tweets,Only disaster event,4,0.7990,0.7905,0.7484
+Disaster Tweets,Only grounding,4,0.7590,0.7535,0.7168
+Disaster Tweets,Only severity/damage,4,0.7000,0.6481,0.5130
+Disaster Tweets,Only emergency response,4,0.6300,0.5228,0.2966
+Disaster Tweets,Only figurative/non-disaster,4,0.7530,0.7501,0.7234

@@ -1,0 +1,17 @@
+Dataset,Source extractor,In-domain Macro-F1,Mean cross-extractor Macro-F1,Mean delta vs source in-domain,Worst target,Worst cross-extractor Macro-F1,Worst delta vs source in-domain,Best target,Best cross-extractor Macro-F1
+SMS Spam,DeepSeek V4 Flash,0.9373,0.9516,+0.0143,Qwen Plus,0.9433,+0.0059,Gemini 2.5 Flash,0.9594
+SMS Spam,GPT-4.1 mini,0.9442,0.9355,-0.0087,DeepSeek V4 Flash,0.9239,-0.0203,Qwen Plus,0.9453
+SMS Spam,Qwen Plus,0.9409,0.9416,+0.0007,DeepSeek V4 Flash,0.9258,-0.0151,Gemini 2.5 Flash,0.9510
+SMS Spam,Gemini 2.5 Flash,0.9555,0.9359,-0.0196,DeepSeek V4 Flash,0.9262,-0.0293,Qwen Plus,0.9413
+SST-2,DeepSeek V4 Flash,0.9349,0.9356,+0.0007,GPT-4.1 mini,0.9190,-0.0160,Gemini 2.5 Flash,0.9534
+SST-2,GPT-4.1 mini,0.9273,0.9407,+0.0134,Qwen Plus,0.9316,+0.0043,Gemini 2.5 Flash,0.9554
+SST-2,Qwen Plus,0.9460,0.9399,-0.0061,GPT-4.1 mini,0.9259,-0.0202,Gemini 2.5 Flash,0.9562
+SST-2,Gemini 2.5 Flash,0.9593,0.9386,-0.0207,GPT-4.1 mini,0.9270,-0.0323,Qwen Plus,0.9490
+ADE,DeepSeek V4 Flash,0.7577,0.7595,+0.0018,Gemini 2.5 Flash,0.7296,-0.0281,Qwen Plus,0.7908
+ADE,GPT-4.1 mini,0.7742,0.7278,-0.0465,Gemini 2.5 Flash,0.6952,-0.0790,Qwen Plus,0.7542
+ADE,Qwen Plus,0.7882,0.7470,-0.0411,Gemini 2.5 Flash,0.7188,-0.0694,GPT-4.1 mini,0.7706
+ADE,Gemini 2.5 Flash,0.7307,0.7734,+0.0427,DeepSeek V4 Flash,0.7581,+0.0274,Qwen Plus,0.7944
+Disaster Tweets,DeepSeek V4 Flash,0.8073,0.8032,-0.0041,GPT-4.1 mini,0.7959,-0.0115,Gemini 2.5 Flash,0.8075
+Disaster Tweets,GPT-4.1 mini,0.7975,0.8085,+0.0110,Qwen Plus,0.8042,+0.0067,Gemini 2.5 Flash,0.8107
+Disaster Tweets,Qwen Plus,0.8101,0.8013,-0.0087,GPT-4.1 mini,0.7940,-0.0161,DeepSeek V4 Flash,0.8055
+Disaster Tweets,Gemini 2.5 Flash,0.8130,0.7962,-0.0168,GPT-4.1 mini,0.7885,-0.0245,Qwen Plus,0.8013

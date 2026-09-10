@@ -1,0 +1,32 @@
+{
+  "positive_sentiment": [
+    "expresses_positive_emotion",
+    "contains_praise",
+    "mentions_enjoyment",
+    "describes_high_quality"
+  ],
+  "negative_sentiment": [
+    "expresses_negative_emotion",
+    "contains_criticism",
+    "mentions_disappointment",
+    "describes_low_quality"
+  ],
+  "aspect_evaluation": [
+    "mentions_good_acting_or_writing",
+    "mentions_bad_acting_or_writing",
+    "contains_comparison",
+    "uses_strong_opinion"
+  ],
+  "uncertainty_irony": [
+    "contains_irony_or_sarcasm",
+    "contains_mixed_sentiment",
+    "sounds_uncertain",
+    "uses_emotional_language"
+  ],
+  "recommendation": [
+    "contains_recommendation",
+    "mentions_exciting_content",
+    "mentions_boredom",
+    "sounds_confident"
+  ]
+}

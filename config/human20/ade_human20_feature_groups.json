@@ -1,0 +1,32 @@
+{
+  "medication": [
+    "mentions_medication_or_drug",
+    "mentions_dose_or_frequency",
+    "mentions_drug_discontinuation",
+    "mentions_drug_interaction"
+  ],
+  "clinical_event": [
+    "mentions_symptom_or_condition",
+    "mentions_adverse_reaction",
+    "mentions_severity",
+    "mentions_lab_or_diagnostic_abnormality"
+  ],
+  "causality_temporality": [
+    "links_event_to_medication",
+    "mentions_temporal_after_use",
+    "mentions_rechallenge_or_recovery",
+    "mentions_onset_or_duration"
+  ],
+  "negation_uncertainty": [
+    "contains_negation_no_event",
+    "contains_uncertainty_or_possible",
+    "states_alternative_cause",
+    "reports_no_drug_link"
+  ],
+  "non_ade_context": [
+    "mentions_study_or_trial_context",
+    "mentions_expected_therapeutic_effect",
+    "describes_indication_or_background",
+    "discusses_general_pharmacology"
+  ]
+}

@@ -1,0 +1,17 @@
+Dataset,Input,Method,Accuracy,Macro-F1,Positive F1,Macro-F1 numeric
+SMS Spam,raw text,TF-IDF + LR,0.9860 ± 0.0000,0.9676 ± 0.0000,0.9431 ± 0.0000,0.9676
+SMS Spam,raw text,RoBERTa embedding + LR,0.9890 ± 0.0000,0.9749 ± 0.0000,0.9562 ± 0.0000,0.9749
+SMS Spam,raw text,DistilBERT fine-tuning,0.9910 ± 0.0044,0.9795 ± 0.0096,0.9641 ± 0.0168,0.9795
+SMS Spam,ASB features,ASB-LR (ours),0.9710 ± 0.0000,0.9373 ± 0.0000,0.8914 ± 0.0000,0.9373
+SST-2,raw text,TF-IDF + LR,0.7700 ± 0.0000,0.7669 ± 0.0000,0.7939 ± 0.0000,0.7669
+SST-2,raw text,RoBERTa embedding + LR,0.8970 ± 0.0000,0.8961 ± 0.0000,0.9059 ± 0.0000,0.8961
+SST-2,raw text,DistilBERT fine-tuning,0.9013 ± 0.0006,0.8998 ± 0.0018,0.9114 ± 0.0038,0.8998
+SST-2,ASB features,ASB-LR (ours),0.9360 ± 0.0000,0.9349 ± 0.0000,0.9433 ± 0.0000,0.9349
+ADE,raw text,TF-IDF + LR,0.8350 ± 0.0000,0.7623 ± 0.0000,0.6309 ± 0.0000,0.7623
+ADE,raw text,RoBERTa embedding + LR,0.8320 ± 0.0000,0.7783 ± 0.0000,0.6693 ± 0.0000,0.7783
+ADE,raw text,DistilBERT fine-tuning,0.9017 ± 0.0354,0.8570 ± 0.0354,0.7774 ± 0.0449,0.857
+ADE,ASB features,ASB-LR (ours),0.7980 ± 0.0000,0.7577 ± 0.0000,0.6588 ± 0.0000,0.7577
+Disaster Tweets,raw text,TF-IDF + LR,0.7790 ± 0.0000,0.7720 ± 0.0000,0.7321 ± 0.0000,0.772
+Disaster Tweets,raw text,RoBERTa embedding + LR,0.8330 ± 0.0000,0.8290 ± 0.0000,0.8028 ± 0.0000,0.829
+Disaster Tweets,raw text,DistilBERT fine-tuning,0.8197 ± 0.0080,0.8133 ± 0.0066,0.7797 ± 0.0104,0.8133
+Disaster Tweets,ASB features,ASB-LR (ours),0.8160 ± 0.0000,0.8073 ± 0.0000,0.7665 ± 0.0000,0.8073

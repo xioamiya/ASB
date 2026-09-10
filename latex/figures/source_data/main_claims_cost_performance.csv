@@ -1,0 +1,17 @@
+Dataset,Feature extractor,Classifier,Accuracy,Macro-F1,Positive F1,Platform,Provider,Estimated cost
+SMS Spam,DeepSeek V4 Flash,ASB-LR (ours),0.971,0.9373,0.8914,DeepSeek,DeepSeek,1.2496
+SMS Spam,GPT-4.1 mini,ASB-LR (ours),0.975,0.9442,0.9027,OpenAI,GPT-4.1,6.0047
+SMS Spam,Qwen Plus,ASB-LR (ours),0.973,0.9409,0.8973,Qwen,Qwen,1.3969
+SMS Spam,Gemini 2.5 Flash,ASB-LR (ours),0.98,0.9555,0.9225,Google,Gemini,27.81
+SST-2,DeepSeek V4 Flash,ASB-LR (ours),0.936,0.9349,0.9433,DeepSeek,DeepSeek,1.2496
+SST-2,GPT-4.1 mini,ASB-LR (ours),0.928,0.9273,0.9345,OpenAI,GPT-4.1,6.0047
+SST-2,Qwen Plus,ASB-LR (ours),0.947,0.946,0.9532,Qwen,Qwen,1.3969
+SST-2,Gemini 2.5 Flash,ASB-LR (ours),0.96,0.9593,0.9647,Google,Gemini,27.81
+ADE,DeepSeek V4 Flash,ASB-LR (ours),0.798,0.7577,0.6588,DeepSeek,DeepSeek,1.2496
+ADE,GPT-4.1 mini,ASB-LR (ours),0.822,0.7742,0.6704,OpenAI,GPT-4.1,6.0047
+ADE,Qwen Plus,ASB-LR (ours),0.829,0.7882,0.6952,Qwen,Qwen,1.3969
+ADE,Gemini 2.5 Flash,ASB-LR (ours),0.769,0.7307,0.6292,Google,Gemini,27.81
+Disaster Tweets,DeepSeek V4 Flash,ASB-LR (ours),0.816,0.8073,0.7665,DeepSeek,DeepSeek,1.2496
+Disaster Tweets,GPT-4.1 mini,ASB-LR (ours),0.805,0.7975,0.7584,OpenAI,GPT-4.1,6.0047
+Disaster Tweets,Qwen Plus,ASB-LR (ours),0.817,0.8101,0.7738,Qwen,Qwen,1.3969
+Disaster Tweets,Gemini 2.5 Flash,ASB-LR (ours),0.819,0.813,0.7795,Google,Gemini,27.81

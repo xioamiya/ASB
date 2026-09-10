@@ -1,0 +1,102 @@
+[
+  {
+    "id": "expresses_positive_emotion",
+    "question": "Does the sentence express positive emotion, approval, pleasure, or enthusiasm?",
+    "category": "positive_sentiment"
+  },
+  {
+    "id": "contains_praise",
+    "question": "Does the sentence praise the movie, a creative element, or the viewing experience?",
+    "category": "positive_sentiment"
+  },
+  {
+    "id": "mentions_enjoyment",
+    "question": "Does the sentence indicate that the movie is enjoyable, entertaining, engaging, or fun?",
+    "category": "positive_sentiment"
+  },
+  {
+    "id": "describes_high_quality",
+    "question": "Does the sentence describe the movie or an aspect of it as high quality, effective, or well made?",
+    "category": "positive_sentiment"
+  },
+  {
+    "id": "expresses_negative_emotion",
+    "question": "Does the sentence express negative emotion, dislike, frustration, or disapproval?",
+    "category": "negative_sentiment"
+  },
+  {
+    "id": "contains_criticism",
+    "question": "Does the sentence criticize the movie, a creative element, or the viewing experience?",
+    "category": "negative_sentiment"
+  },
+  {
+    "id": "mentions_disappointment",
+    "question": "Does the sentence indicate disappointment, failure, wasted potential, or dissatisfaction?",
+    "category": "negative_sentiment"
+  },
+  {
+    "id": "describes_low_quality",
+    "question": "Does the sentence describe the movie or an aspect of it as low quality, ineffective, or poorly made?",
+    "category": "negative_sentiment"
+  },
+  {
+    "id": "mentions_good_acting_or_writing",
+    "question": "Does the sentence positively evaluate acting, writing, direction, dialogue, story, or filmmaking craft?",
+    "category": "aspect_evaluation"
+  },
+  {
+    "id": "mentions_bad_acting_or_writing",
+    "question": "Does the sentence negatively evaluate acting, writing, direction, dialogue, story, or filmmaking craft?",
+    "category": "aspect_evaluation"
+  },
+  {
+    "id": "contains_comparison",
+    "question": "Does the sentence compare the movie or one of its aspects with another movie, standard, genre, or expectation?",
+    "category": "aspect_evaluation"
+  },
+  {
+    "id": "uses_strong_opinion",
+    "question": "Does the sentence make a strong evaluative judgment about quality, merit, or value?",
+    "category": "aspect_evaluation"
+  },
+  {
+    "id": "contains_irony_or_sarcasm",
+    "question": "Does the sentence contain irony, sarcasm, mock praise, or a non-literal evaluative tone?",
+    "category": "uncertainty_irony"
+  },
+  {
+    "id": "contains_mixed_sentiment",
+    "question": "Does the sentence contain both positive and negative evaluation or qualify one sentiment with another?",
+    "category": "uncertainty_irony"
+  },
+  {
+    "id": "sounds_uncertain",
+    "question": "Does the sentence sound uncertain, hesitant, tentative, or ambiguous in its evaluation?",
+    "category": "uncertainty_irony"
+  },
+  {
+    "id": "uses_emotional_language",
+    "question": "Does the sentence rely on emotionally loaded language rather than a purely descriptive statement?",
+    "category": "uncertainty_irony"
+  },
+  {
+    "id": "contains_recommendation",
+    "question": "Does the sentence imply that the movie should be watched, avoided, recommended, or not recommended?",
+    "category": "recommendation"
+  },
+  {
+    "id": "mentions_exciting_content",
+    "question": "Does the sentence mention excitement, energy, suspense, charm, or engagement that would attract viewers?",
+    "category": "recommendation"
+  },
+  {
+    "id": "mentions_boredom",
+    "question": "Does the sentence mention boredom, dullness, slowness, tedium, or lack of engagement?",
+    "category": "recommendation"
+  },
+  {
+    "id": "sounds_confident",
+    "question": "Does the sentence sound confident or decisive in its recommendation or judgment?",
+    "category": "recommendation"
+  }
+]

@@ -1,0 +1,9 @@
+Dataset,Schema,Accuracy,Macro-F1,Positive F1,Delta Macro-F1 vs original
+SMS Spam,original,0.9710,0.9373,0.8914,+0.0000
+SMS Spam,alternative,0.9860,0.9676,0.9431,+0.0302
+SST-2,original,0.9360,0.9349,0.9433,+0.0000
+SST-2,alternative,0.8890,0.8889,0.8919,-0.0460
+ADE,original,0.7980,0.7577,0.6588,+0.0000
+ADE,alternative,0.7970,0.7533,0.6494,-0.0044
+Disaster Tweets,original,0.8160,0.8073,0.7665,+0.0000
+Disaster Tweets,alternative,0.8280,0.8194,0.7801,+0.0121

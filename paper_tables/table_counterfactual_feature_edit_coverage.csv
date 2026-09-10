@@ -1,0 +1,5 @@
+Dataset,Model,Test errors,<=1 edit,<=2 edits,<=3 edits,Median edit distance
+SMS Spam,ASB-LR (ours),29,0.8276,0.9655,1.0000,1.0
+SST-2,ASB-LR (ours),64,0.8125,0.8750,0.9688,1.0
+ADE,ASB-LR (ours),202,0.9950,1.0000,1.0000,1.0
+Disaster Tweets,ASB-LR (ours),184,0.5217,0.9457,0.9837,1.0

@@ -1,0 +1,29 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+tmp/
+output/
+
+# Credentials and local configuration
+.env
+.env.*
+config/api_key.doc
+config/api_key.txt
+config/*.key
+
+# Locally acquired source datasets
+data/*.csv
+data/*.json
+data/*.jsonl
+
+# LaTeX build products (the committed paper PDF is explicitly retained)
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.out
+latex/*.synctex.gz
+latex/*.toc

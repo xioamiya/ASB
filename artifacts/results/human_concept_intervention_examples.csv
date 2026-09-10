@@ -1,0 +1,80 @@
+Dataset,id,label,original_pred,human_corrected_pred,original_correct,human_corrected_correct,changed_feature_count
+SMS Spam,sms_spam_04295,spam,ham,spam,0,1,5
+SMS Spam,sms_spam_00826,ham,spam,spam,0,0,0
+SMS Spam,sms_spam_02082,spam,ham,spam,0,1,2
+SMS Spam,sms_spam_02913,spam,ham,spam,0,1,3
+SMS Spam,sms_spam_04120,ham,spam,ham,0,1,3
+SST-2,sst2_03982,negative,positive,positive,0,0,5
+SST-2,sst2_04815,negative,positive,negative,0,1,1
+SST-2,sst2_03681,positive,positive,negative,1,0,1
+SST-2,sst2_00528,positive,positive,negative,1,0,1
+SST-2,sst2_00145,negative,positive,negative,0,1,1
+SST-2,sst2_04347,negative,positive,negative,0,1,11
+SST-2,sst2_03558,positive,positive,negative,1,0,1
+SST-2,sst2_02809,negative,negative,positive,1,0,9
+SST-2,sst2_02165,positive,positive,negative,1,0,2
+SST-2,sst2_00537,negative,positive,negative,0,1,6
+ADE,ade_02550,non_ade,ade,non_ade,0,1,1
+ADE,ade_01867,non_ade,ade,ade,0,0,2
+ADE,ade_02110,non_ade,non_ade,ade,1,0,3
+ADE,ade_01634,ade,non_ade,non_ade,0,0,2
+ADE,ade_00045,ade,non_ade,non_ade,0,0,2
+ADE,ade_03942,ade,ade,non_ade,1,0,3
+ADE,ade_01599,non_ade,ade,ade,0,0,2
+ADE,ade_02678,non_ade,ade,ade,0,0,1
+ADE,ade_01942,non_ade,non_ade,ade,1,0,5
+ADE,ade_01342,non_ade,ade,ade,0,0,0
+ADE,ade_01577,non_ade,ade,non_ade,0,1,4
+ADE,ade_02901,non_ade,ade,ade,0,0,1
+ADE,ade_01993,non_ade,ade,ade,0,0,3
+ADE,ade_03888,non_ade,ade,non_ade,0,1,4
+ADE,ade_01372,non_ade,non_ade,ade,1,0,4
+ADE,ade_01095,non_ade,ade,non_ade,0,1,5
+ADE,ade_02116,ade,non_ade,non_ade,0,0,2
+ADE,ade_04770,non_ade,ade,ade,0,0,0
+ADE,ade_03010,non_ade,non_ade,ade,1,0,2
+ADE,ade_01515,ade,ade,non_ade,1,0,2
+ADE,ade_03372,ade,ade,non_ade,1,0,4
+ADE,ade_03485,non_ade,non_ade,ade,1,0,5
+ADE,ade_02112,non_ade,non_ade,ade,1,0,10
+ADE,ade_01659,non_ade,ade,ade,0,0,4
+Disaster Tweets,disaster_02341,not disaster,real disaster,real disaster,0,0,3
+Disaster Tweets,disaster_04861,not disaster,not disaster,real disaster,1,0,4
+Disaster Tweets,disaster_00081,not disaster,not disaster,real disaster,1,0,7
+Disaster Tweets,disaster_03662,not disaster,not disaster,real disaster,1,0,2
+Disaster Tweets,disaster_03667,not disaster,not disaster,real disaster,1,0,5
+Disaster Tweets,disaster_04193,real disaster,not disaster,not disaster,0,0,0
+Disaster Tweets,disaster_03825,not disaster,not disaster,real disaster,1,0,2
+Disaster Tweets,disaster_02823,real disaster,not disaster,real disaster,0,1,2
+Disaster Tweets,disaster_00506,real disaster,not disaster,not disaster,0,0,2
+Disaster Tweets,disaster_02686,not disaster,not disaster,real disaster,1,0,5
+Disaster Tweets,disaster_04810,not disaster,real disaster,real disaster,0,0,6
+Disaster Tweets,disaster_01423,real disaster,not disaster,real disaster,0,1,6
+Disaster Tweets,disaster_04539,real disaster,not disaster,real disaster,0,1,9
+Disaster Tweets,disaster_02494,not disaster,not disaster,real disaster,1,0,3
+Disaster Tweets,disaster_03277,real disaster,not disaster,not disaster,0,0,3
+Disaster Tweets,disaster_01887,real disaster,not disaster,not disaster,0,0,2
+Disaster Tweets,disaster_03573,not disaster,not disaster,real disaster,1,0,3
+Disaster Tweets,disaster_03745,real disaster,not disaster,not disaster,0,0,1
+Disaster Tweets,disaster_00553,not disaster,not disaster,real disaster,1,0,4
+Disaster Tweets,disaster_01635,real disaster,not disaster,real disaster,0,1,7
+Disaster Tweets,disaster_00295,not disaster,not disaster,real disaster,1,0,4
+Disaster Tweets,disaster_04061,not disaster,real disaster,real disaster,0,0,2
+Disaster Tweets,disaster_02480,real disaster,not disaster,not disaster,0,0,2
+Disaster Tweets,disaster_01514,real disaster,not disaster,not disaster,0,0,3
+Disaster Tweets,disaster_04091,real disaster,not disaster,not disaster,0,0,4
+Disaster Tweets,disaster_03387,not disaster,real disaster,real disaster,0,0,2
+Disaster Tweets,disaster_01762,not disaster,not disaster,real disaster,1,0,4
+Disaster Tweets,disaster_04722,real disaster,not disaster,not disaster,0,0,1
+Disaster Tweets,disaster_04997,real disaster,not disaster,not disaster,0,0,4
+Disaster Tweets,disaster_03151,real disaster,not disaster,not disaster,0,0,3
+Disaster Tweets,disaster_02600,real disaster,not disaster,real disaster,0,1,8
+Disaster Tweets,disaster_01134,not disaster,not disaster,real disaster,1,0,5
+Disaster Tweets,disaster_00891,real disaster,not disaster,real disaster,0,1,2
+Disaster Tweets,disaster_01868,real disaster,not disaster,real disaster,0,1,5
+Disaster Tweets,disaster_03685,not disaster,not disaster,real disaster,1,0,2
+Disaster Tweets,disaster_03892,real disaster,not disaster,real disaster,0,1,3
+Disaster Tweets,disaster_03689,not disaster,not disaster,real disaster,1,0,3
+Disaster Tweets,disaster_01810,not disaster,real disaster,real disaster,0,0,2
+Disaster Tweets,disaster_00895,real disaster,not disaster,real disaster,0,1,7
+Disaster Tweets,disaster_03969,not disaster,not disaster,real disaster,1,0,6

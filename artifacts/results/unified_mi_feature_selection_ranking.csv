@@ -1,0 +1,81 @@
+Dataset,Rank,Feature,Mutual information
+SMS Spam,1,normal_personal_conversation,0.280070
+SMS Spam,2,uses_promotional_or_marketing_claim,0.273269
+SMS Spam,3,asks_user_reply_or_call,0.187512
+SMS Spam,4,uses_casual_emotional_language,0.185929
+SMS Spam,5,requests_immediate_action,0.148476
+SMS Spam,6,mentions_financial_gain_or_cost,0.124193
+SMS Spam,7,mentions_money_payment,0.121406
+SMS Spam,8,mentions_prize_reward_gift,0.107544
+SMS Spam,9,refers_previous_conversation,0.096450
+SMS Spam,10,creates_urgency,0.087588
+SMS Spam,11,mentions_free_offer,0.075073
+SMS Spam,12,claims_winner_or_selected,0.074464
+SMS Spam,13,impersonates_official_entity,0.055973
+SMS Spam,14,contains_all_caps_or_exclamation_emphasis,0.052515
+SMS Spam,15,mentions_meeting_family_friends,0.041001
+SMS Spam,16,asks_click_link,0.040402
+SMS Spam,17,uses_deadline_or_expiry,0.027845
+SMS Spam,18,mentions_discount_or_rate,0.013902
+SMS Spam,19,requests_personal_information,0.001719
+SMS Spam,20,threatens_loss_or_penalty,0.001410
+SST-2,1,expresses_positive_emotion,0.389457
+SST-2,2,contains_praise,0.381196
+SST-2,3,expresses_negative_emotion,0.366034
+SST-2,4,contains_criticism,0.365605
+SST-2,5,describes_low_quality,0.270271
+SST-2,6,describes_high_quality,0.230419
+SST-2,7,mentions_disappointment,0.161557
+SST-2,8,mentions_enjoyment,0.090705
+SST-2,9,mentions_exciting_content,0.063111
+SST-2,10,mentions_good_acting_or_writing,0.058213
+SST-2,11,mentions_bad_acting_or_writing,0.052575
+SST-2,12,mentions_boredom,0.036247
+SST-2,13,contains_irony_or_sarcasm,0.016757
+SST-2,14,uses_strong_opinion,0.010001
+SST-2,15,contains_recommendation,0.005919
+SST-2,16,contains_comparison,0.002844
+SST-2,17,uses_emotional_language,0.002210
+SST-2,18,sounds_uncertain,0.001830
+SST-2,19,contains_mixed_sentiment,0.000024
+SST-2,20,sounds_confident,0.000012
+ADE,1,links_event_to_medication,0.158251
+ADE,2,mentions_adverse_reaction,0.120754
+ADE,3,mentions_medication_or_drug,0.087194
+ADE,4,mentions_symptom_or_condition,0.035402
+ADE,5,mentions_temporal_after_use,0.032876
+ADE,6,mentions_expected_therapeutic_effect,0.024956
+ADE,7,describes_indication_or_background,0.011047
+ADE,8,mentions_severity,0.003230
+ADE,9,mentions_study_or_trial_context,0.002976
+ADE,10,contains_negation_no_event,0.002392
+ADE,11,contains_uncertainty_or_possible,0.001673
+ADE,12,mentions_drug_interaction,0.001420
+ADE,13,states_alternative_cause,0.000662
+ADE,14,mentions_dose_or_frequency,0.000625
+ADE,15,mentions_onset_or_duration,0.000463
+ADE,16,discusses_general_pharmacology,0.000460
+ADE,17,mentions_lab_or_diagnostic_abnormality,0.000443
+ADE,18,mentions_drug_discontinuation,0.000017
+ADE,19,reports_no_drug_link,0.000004
+ADE,20,mentions_rechallenge_or_recovery,0.000001
+Disaster Tweets,1,reports_event_occurrence,0.202545
+Disaster Tweets,2,mentions_disaster_type,0.171220
+Disaster Tweets,3,discusses_non_event_context,0.149329
+Disaster Tweets,4,mentions_location,0.126234
+Disaster Tweets,5,describes_threat_or_danger,0.123977
+Disaster Tweets,6,includes_source_or_report,0.102397
+Disaster Tweets,7,uses_metaphor_or_idiom,0.065011
+Disaster Tweets,8,mentions_cause_or_trigger,0.045761
+Disaster Tweets,9,mentions_casualties_or_injuries,0.041814
+Disaster Tweets,10,refers_to_entertainment_or_sports,0.038624
+Disaster Tweets,11,expresses_joke_or_sarcasm,0.031013
+Disaster Tweets,12,mentions_infrastructure_disruption,0.029272
+Disaster Tweets,13,mentions_scale_or_intensity,0.024052
+Disaster Tweets,14,mentions_property_damage,0.022406
+Disaster Tweets,15,mentions_time_or_recency,0.019520
+Disaster Tweets,16,mentions_rescue_or_emergency_services,0.017705
+Disaster Tweets,17,mentions_evacuation_or_shelter,0.009678
+Disaster Tweets,18,gives_safety_instruction,0.004626
+Disaster Tweets,19,calls_for_help,0.000920
+Disaster Tweets,20,first_person_witnessing,0.000764

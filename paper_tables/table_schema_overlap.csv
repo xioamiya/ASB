@@ -1,0 +1,5 @@
+Dataset,Mean max lexical Jaccard,Mean max abs feature correlation,Alternative features with max corr > 0.5,Paired rows
+SMS Spam,0.2351,0.6789,17,5000
+SST-2,0.2346,0.5261,11,5000
+ADE,0.2351,0.6307,14,5000
+Disaster Tweets,0.3838,0.6549,15,5000

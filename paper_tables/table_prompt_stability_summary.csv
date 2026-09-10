@@ -1,0 +1,13 @@
+Dataset,Prompt comparison,Matrix agreement,Mean per-feature kappa,Mean positive agreement,Active features,Mean activation shift,Max activation shift,Prediction agreement,Top-5 overlap
+SMS Spam,Strict vs Direct,0.9832,0.8885,0.9049,20,0.0042,0.0154,0.9870,1.0000
+SMS Spam,Strict vs Inference,0.9819,0.8937,0.9110,20,0.0097,0.0484,0.9900,1.0000
+SMS Spam,Direct vs Inference,0.9836,0.9054,0.9220,20,0.0057,0.0352,0.9870,1.0000
+SST-2,Strict vs Direct,0.9621,0.8444,0.8826,20,0.0177,0.0508,0.9740,0.6000
+SST-2,Strict vs Inference,0.9588,0.8414,0.8833,20,0.0302,0.0690,0.9740,0.6000
+SST-2,Direct vs Inference,0.9662,0.8662,0.9014,20,0.0127,0.0560,0.9840,0.6000
+ADE,Strict vs Direct,0.9733,0.8764,0.8997,20,0.0068,0.0268,0.9670,1.0000
+ADE,Strict vs Inference,0.9729,0.8808,0.9041,20,0.0120,0.0640,0.9650,1.0000
+ADE,Direct vs Inference,0.9749,0.8928,0.9147,20,0.0059,0.0372,0.9740,1.0000
+Disaster Tweets,Strict vs Direct,0.9658,0.8599,0.8846,20,0.0107,0.0290,0.9450,1.0000
+Disaster Tweets,Strict vs Inference,0.9671,0.8674,0.8913,20,0.0125,0.0336,0.9490,1.0000
+Disaster Tweets,Direct vs Inference,0.9687,0.8814,0.9045,20,0.0046,0.0206,0.9520,1.0000

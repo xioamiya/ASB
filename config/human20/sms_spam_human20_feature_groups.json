@@ -1,0 +1,32 @@
+{
+  "deception": [
+    "mentions_prize_reward_gift",
+    "claims_winner_or_selected",
+    "impersonates_official_entity",
+    "uses_promotional_or_marketing_claim"
+  ],
+  "money": [
+    "mentions_money_payment",
+    "mentions_free_offer",
+    "mentions_discount_or_rate",
+    "mentions_financial_gain_or_cost"
+  ],
+  "urgency": [
+    "creates_urgency",
+    "uses_deadline_or_expiry",
+    "threatens_loss_or_penalty",
+    "contains_all_caps_or_exclamation_emphasis"
+  ],
+  "action_request": [
+    "asks_click_link",
+    "asks_user_reply_or_call",
+    "requests_personal_information",
+    "requests_immediate_action"
+  ],
+  "personal_normal": [
+    "normal_personal_conversation",
+    "mentions_meeting_family_friends",
+    "uses_casual_emotional_language",
+    "refers_previous_conversation"
+  ]
+}

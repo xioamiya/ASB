@@ -1,0 +1,81 @@
+Dataset,Feature,Annotated entries,Scored entries,Unclear entries,Unclear rate,Agreement,Cohen kappa,Positive agreement,LLM false-positive rate,LLM false-negative rate
+ADE,contains_negation_no_event,100,100,0,0.0000,0.9800,0.7396,0.7500,0.0104,0.2500
+ADE,contains_uncertainty_or_possible,100,100,0,0.0000,0.9300,0.5536,0.5882,0.0112,0.5455
+ADE,describes_indication_or_background,100,100,0,0.0000,0.7600,0.4990,0.6923,0.1404,0.3721
+ADE,discusses_general_pharmacology,100,100,0,0.0000,0.9900,0.7951,0.8000,0.0000,0.3333
+ADE,links_event_to_medication,100,100,0,0.0000,0.9100,0.8060,0.9291,0.1579,0.0484
+ADE,mentions_adverse_reaction,100,100,0,0.0000,0.8500,0.6462,0.8921,0.2581,0.1014
+ADE,mentions_dose_or_frequency,100,100,0,0.0000,0.9800,0.8780,0.8889,0.0000,0.2000
+ADE,mentions_drug_discontinuation,100,100,0,0.0000,0.9900,0.9038,0.9091,0.0000,0.1667
+ADE,mentions_drug_interaction,100,100,0,0.0000,0.9900,0.0000,0.0000,0.0000,1.0000
+ADE,mentions_expected_therapeutic_effect,100,100,0,0.0000,0.9400,0.7183,0.7500,0.0000,0.4000
+ADE,mentions_lab_or_diagnostic_abnormality,100,100,0,0.0000,0.9500,0.8684,0.9020,0.0270,0.1154
+ADE,mentions_medication_or_drug,100,100,0,0.0000,0.9200,0.7416,0.9506,0.0625,0.0833
+ADE,mentions_onset_or_duration,100,100,0,0.0000,0.8700,0.5938,0.6667,0.0133,0.4800
+ADE,mentions_rechallenge_or_recovery,100,100,0,0.0000,0.9900,0.8837,0.8889,0.0000,0.2000
+ADE,mentions_severity,100,100,0,0.0000,0.6000,0.2224,0.3939,0.0208,0.7500
+ADE,mentions_study_or_trial_context,100,100,0,0.0000,0.9200,0.6466,0.6923,0.0349,0.3571
+ADE,mentions_symptom_or_condition,100,100,0,0.0000,0.9400,0.3802,0.9684,0.0000,0.0612
+ADE,mentions_temporal_after_use,100,100,0,0.0000,0.8600,0.6298,0.7200,0.1392,0.1429
+ADE,reports_no_drug_link,100,100,0,0.0000,0.9900,0.6622,0.6667,0.0000,0.5000
+ADE,states_alternative_cause,100,100,0,0.0000,0.9700,-0.0135,0.0000,0.0102,1.0000
+Disaster Tweets,calls_for_help,100,100,0,0.0000,0.9600,0.4845,0.5000,0.0000,0.6667
+Disaster Tweets,describes_threat_or_danger,100,100,0,0.0000,0.8300,0.6575,0.7901,0.0000,0.3469
+Disaster Tweets,discusses_non_event_context,100,100,0,0.0000,0.7800,0.5563,0.8197,0.0345,0.2958
+Disaster Tweets,expresses_joke_or_sarcasm,100,100,0,0.0000,0.9000,0.6615,0.7222,0.0723,0.2353
+Disaster Tweets,first_person_witnessing,100,100,0,0.0000,0.8400,0.5604,0.6522,0.0143,0.5000
+Disaster Tweets,gives_safety_instruction,100,100,0,0.0000,0.9600,0.5825,0.6000,0.0000,0.5714
+Disaster Tweets,includes_source_or_report,100,100,0,0.0000,0.8300,0.5913,0.7018,0.0308,0.4286
+Disaster Tweets,mentions_casualties_or_injuries,100,100,0,0.0000,0.9200,0.6885,0.7333,0.0122,0.3889
+Disaster Tweets,mentions_cause_or_trigger,100,100,0,0.0000,0.6100,0.1624,0.2642,0.0000,0.8478
+Disaster Tweets,mentions_disaster_type,100,100,0,0.0000,0.4700,0.1577,0.5391,0.0000,0.6310
+Disaster Tweets,mentions_evacuation_or_shelter,100,100,0,0.0000,1.0000,,,0.0000,
+Disaster Tweets,mentions_infrastructure_disruption,100,100,0,0.0000,0.9300,0.5570,0.5882,0.0000,0.5833
+Disaster Tweets,mentions_location,100,100,0,0.0000,0.9300,0.8536,0.9114,0.0656,0.0769
+Disaster Tweets,mentions_property_damage,100,100,0,0.0000,0.8600,0.3191,0.3636,0.0000,0.7778
+Disaster Tweets,mentions_rescue_or_emergency_services,100,100,0,0.0000,0.9200,0.6721,0.7143,0.0000,0.4444
+Disaster Tweets,mentions_scale_or_intensity,100,100,0,0.0000,0.6500,0.1883,0.2857,0.0000,0.8333
+Disaster Tweets,mentions_time_or_recency,100,100,0,0.0000,0.8500,0.5573,0.6512,0.0658,0.4167
+Disaster Tweets,refers_to_entertainment_or_sports,100,100,0,0.0000,0.9100,0.7155,0.7692,0.0130,0.3478
+Disaster Tweets,reports_event_occurrence,100,100,0,0.0000,0.9300,0.8114,0.8571,0.0137,0.2222
+Disaster Tweets,uses_metaphor_or_idiom,100,100,0,0.0000,0.8200,0.5714,0.7000,0.1286,0.3000
+SMS Spam,asks_click_link,100,100,0,0.0000,0.9900,0.8837,0.8889,0.0000,0.2000
+SMS Spam,asks_user_reply_or_call,100,100,0,0.0000,0.9700,0.9395,0.9670,0.0185,0.0435
+SMS Spam,claims_winner_or_selected,100,100,0,0.0000,0.9500,0.8271,0.8571,0.0476,0.0625
+SMS Spam,contains_all_caps_or_exclamation_emphasis,100,100,0,0.0000,0.8200,0.5516,0.6667,0.0448,0.4545
+SMS Spam,creates_urgency,100,100,0,0.0000,0.8400,0.6369,0.7419,0.0000,0.4103
+SMS Spam,impersonates_official_entity,100,100,0,0.0000,0.9500,0.7544,0.7826,0.0227,0.2500
+SMS Spam,mentions_discount_or_rate,100,100,0,0.0000,0.9600,0.5825,0.6000,0.0000,0.5714
+SMS Spam,mentions_financial_gain_or_cost,100,100,0,0.0000,0.9400,0.8744,0.9231,0.0000,0.1429
+SMS Spam,mentions_free_offer,100,100,0,0.0000,0.9500,0.7357,0.7619,0.0543,0.0000
+SMS Spam,mentions_meeting_family_friends,100,100,0,0.0000,0.7700,0.4471,0.5660,0.0000,0.6053
+SMS Spam,mentions_money_payment,100,100,0,0.0000,0.9500,0.8936,0.9333,0.0000,0.1250
+SMS Spam,mentions_prize_reward_gift,100,100,0,0.0000,0.9600,0.8934,0.9200,0.0395,0.0417
+SMS Spam,normal_personal_conversation,100,100,0,0.0000,0.9400,0.8800,0.9388,0.0588,0.0612
+SMS Spam,refers_previous_conversation,100,100,0,0.0000,0.8500,0.6916,0.8101,0.0185,0.3043
+SMS Spam,requests_immediate_action,100,100,0,0.0000,0.8200,0.6508,0.8125,0.0000,0.3158
+SMS Spam,requests_personal_information,100,100,0,0.0000,0.9900,0.0000,0.0000,0.0000,1.0000
+SMS Spam,threatens_loss_or_penalty,100,100,0,0.0000,0.8800,0.0000,0.0000,0.0000,1.0000
+SMS Spam,uses_casual_emotional_language,100,100,0,0.0000,0.8700,0.7414,0.8632,0.1930,0.0465
+SMS Spam,uses_deadline_or_expiry,100,100,0,0.0000,0.9600,0.7788,0.8000,0.0000,0.3333
+SMS Spam,uses_promotional_or_marketing_claim,100,100,0,0.0000,0.9500,0.8992,0.9451,0.0545,0.0444
+SST-2,contains_comparison,100,100,0,0.0000,0.8000,0.4315,0.5238,0.0000,0.6452
+SST-2,contains_criticism,100,100,0,0.0000,0.9500,0.8998,0.9462,0.0000,0.1020
+SST-2,contains_irony_or_sarcasm,100,100,0,0.0000,0.9400,0.5455,0.5714,0.0000,0.6000
+SST-2,contains_mixed_sentiment,100,100,0,0.0000,0.9800,0.7403,0.7500,0.0000,0.4000
+SST-2,contains_praise,100,100,0,0.0000,0.9300,0.8580,0.9195,0.0185,0.1304
+SST-2,contains_recommendation,100,100,0,0.0000,0.7400,0.0839,0.1333,0.0137,0.9259
+SST-2,describes_high_quality,100,100,0,0.0000,0.8300,0.6482,0.7733,0.0000,0.3696
+SST-2,describes_low_quality,100,100,0,0.0000,0.9000,0.7938,0.8750,0.0000,0.2222
+SST-2,expresses_negative_emotion,100,100,0,0.0000,0.9500,0.9000,0.9474,0.0000,0.1000
+SST-2,expresses_positive_emotion,100,100,0,0.0000,0.9200,0.8390,0.9111,0.0192,0.1458
+SST-2,mentions_bad_acting_or_writing,100,100,0,0.0000,0.6900,0.3062,0.4364,0.0000,0.7209
+SST-2,mentions_boredom,100,100,0,0.0000,0.9500,0.7100,0.7368,0.0112,0.3636
+SST-2,mentions_disappointment,100,100,0,0.0000,0.7500,0.4303,0.5614,0.0000,0.6098
+SST-2,mentions_enjoyment,100,100,0,0.0000,0.8000,0.4600,0.5652,0.0147,0.5938
+SST-2,mentions_exciting_content,100,100,0,0.0000,0.7600,0.2771,0.3684,0.0143,0.7667
+SST-2,mentions_good_acting_or_writing,100,100,0,0.0000,0.7500,0.3221,0.4186,0.0000,0.7353
+SST-2,sounds_confident,100,100,0,0.0000,0.8300,0.4280,0.8970,0.1818,0.1685
+SST-2,sounds_uncertain,100,100,0,0.0000,0.7600,-0.0195,0.0000,0.0130,1.0000
+SST-2,uses_emotional_language,100,100,0,0.0000,0.7700,0.5497,0.8000,0.0312,0.3235
+SST-2,uses_strong_opinion,100,100,0,0.0000,0.8200,0.6005,0.8636,0.1935,0.1739

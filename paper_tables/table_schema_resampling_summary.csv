@@ -1,0 +1,5 @@
+Dataset,Panels,Pool size,Panel size,Original Macro-F1,Mean Macro-F1,SD Macro-F1,Minimum Macro-F1,5th percentile,Median Macro-F1,95th percentile,Maximum Macro-F1,Panels at least original
+SMS Spam,100,40,20,0.9373,0.9506,0.0104,0.9062,0.9338,0.9514,0.9654,0.9720,0.90
+SST-2,100,40,20,0.9349,0.9216,0.0180,0.8696,0.9007,0.9144,0.9440,0.9451,0.41
+ADE,100,40,20,0.7577,0.7541,0.0243,0.6281,0.7187,0.7600,0.7748,0.7847,0.54
+Disaster Tweets,100,40,20,0.8073,0.8130,0.0081,0.7916,0.7989,0.8135,0.8241,0.8280,0.77

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sst2_alt_c02",
+    "question": "Does the sentence suggest that watching the movie is rewarding, worthwhile, satisfying, or pleasurable?",
+    "category": "favorable_response"
+  },
+  {
+    "id": "sst2_alt_c03",
+    "question": "Does the sentence describe the movie as charming, funny, warm, delightful, lively, or entertaining?",
+    "category": "favorable_response"
+  },
+  {
+    "id": "sst2_alt_c06",
+    "question": "Does the sentence praise ambition, intelligence, originality, imagination, or artistic seriousness?",
+    "category": "favorable_response"
+  },
+  {
+    "id": "sst2_alt_c07",
+    "question": "Does the sentence describe the movie as absorbing, compelling, gripping, or hard to look away from?",
+    "category": "favorable_response"
+  },
+  {
+    "id": "sst2_alt_c10",
+    "question": "Does the sentence suggest boredom, dullness, slow pacing, repetition, or a tiring viewing experience?",
+    "category": "unfavorable_response"
+  },
+  {
+    "id": "sst2_alt_c11",
+    "question": "Does the sentence say or imply that the movie is poorly executed, ineffective, clumsy, shallow, or badly made?",
+    "category": "unfavorable_response"
+  },
+  {
+    "id": "sst2_alt_c13",
+    "question": "Does the sentence criticize the movie as generic, formulaic, derivative, stale, or predictable?",
+    "category": "unfavorable_response"
+  },
+  {
+    "id": "sst2_alt_c14",
+    "question": "Does the sentence imply that the movie wastes talent, material, potential, time, or opportunity?",
+    "category": "unfavorable_response"
+  },
+  {
+    "id": "sst2_alt_c17",
+    "question": "Does the sentence praise acting, casting, character work, voice work, or performer presence?",
+    "category": "craft_story"
+  },
+  {
+    "id": "sst2_alt_c18",
+    "question": "Does the sentence criticize acting, casting, characters, or performer presence?",
+    "category": "craft_story"
+  },
+  {
+    "id": "sst2_alt_c19",
+    "question": "Does the sentence praise writing, direction, dialogue, structure, visual style, or filmmaking control?",
+    "category": "craft_story"
+  },
+  {
+    "id": "sst2_alt_c20",
+    "question": "Does the sentence criticize writing, direction, dialogue, structure, visual style, or filmmaking control?",
+    "category": "craft_story"
+  },
+  {
+    "id": "sst2_alt_c25",
+    "question": "Does the sentence make an emphatic quality judgment using strong intensifiers, superlatives, or absolute language?",
+    "category": "judgment_style"
+  },
+  {
+    "id": "sst2_alt_c26",
+    "question": "Does the sentence qualify or hedge its evaluation with uncertainty, limitation, partial praise, or tentative wording?",
+    "category": "judgment_style"
+  },
+  {
+    "id": "sst2_alt_c27",
+    "question": "Does the sentence combine opposing evaluative signals, such as praise with criticism or criticism with a concession?",
+    "category": "judgment_style"
+  },
+  {
+    "id": "sst2_alt_c31",
+    "question": "Does the sentence use comparison, analogy, or contrast to convey evaluation?",
+    "category": "judgment_style"
+  },
+  {
+    "id": "sst2_alt_c33",
+    "question": "Does the sentence compare the movie with another work, genre expectation, audience standard, or prior benchmark?",
+    "category": "context_audience"
+  },
+  {
+    "id": "sst2_alt_c34",
+    "question": "Does the sentence indicate that the movie is especially suited or unsuited for a specific audience, taste, age group, or fan base?",
+    "category": "context_audience"
+  },
+  {
+    "id": "sst2_alt_c35",
+    "question": "Does the sentence describe emotional, moral, thematic, intellectual, or memorable impact beyond simple plot description?",
+    "category": "context_audience"
+  },
+  {
+    "id": "sst2_alt_c38",
+    "question": "Does the sentence mention expectations, promises, hype, reputation, sequel status, or prior affection?",
+    "category": "context_audience"
+  }
+]

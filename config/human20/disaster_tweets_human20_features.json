@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mentions_disaster_type",
+    "question": "Does the tweet mention a disaster or hazard type such as fire, flood, earthquake, storm, crash, explosion, or attack?",
+    "category": "disaster_event"
+  },
+  {
+    "id": "reports_event_occurrence",
+    "question": "Does the tweet report that a real harmful event is happening, happened, or is expected to happen?",
+    "category": "disaster_event"
+  },
+  {
+    "id": "describes_threat_or_danger",
+    "question": "Does the tweet describe a threat, danger, unsafe condition, or risk to people or places?",
+    "category": "disaster_event"
+  },
+  {
+    "id": "mentions_cause_or_trigger",
+    "question": "Does the tweet mention a cause, trigger, or source of the disaster or hazardous event?",
+    "category": "disaster_event"
+  },
+  {
+    "id": "mentions_location",
+    "question": "Does the tweet mention a specific location, place, city, country, street, venue, or geographic area?",
+    "category": "grounding"
+  },
+  {
+    "id": "mentions_time_or_recency",
+    "question": "Does the tweet mention time, date, recency, live updates, now, today, tonight, or an ongoing event?",
+    "category": "grounding"
+  },
+  {
+    "id": "includes_source_or_report",
+    "question": "Does the tweet cite a news source, official report, eyewitness report, alert, or external information source?",
+    "category": "grounding"
+  },
+  {
+    "id": "first_person_witnessing",
+    "question": "Does the tweet suggest first-hand witnessing, direct observation, personal presence, or local experience of the event?",
+    "category": "grounding"
+  },
+  {
+    "id": "mentions_casualties_or_injuries",
+    "question": "Does the tweet mention deaths, casualties, injuries, missing people, victims, or people harmed?",
+    "category": "severity_damage"
+  },
+  {
+    "id": "mentions_property_damage",
+    "question": "Does the tweet mention property damage, destruction, collapsed buildings, burning structures, or damaged vehicles?",
+    "category": "severity_damage"
+  },
+  {
+    "id": "mentions_infrastructure_disruption",
+    "question": "Does the tweet mention disruption to roads, transport, power, communications, schools, hospitals, or public services?",
+    "category": "severity_damage"
+  },
+  {
+    "id": "mentions_scale_or_intensity",
+    "question": "Does the tweet mention scale, intensity, magnitude, many people affected, widespread impact, or severe conditions?",
+    "category": "severity_damage"
+  },
+  {
+    "id": "calls_for_help",
+    "question": "Does the tweet call for help, rescue, aid, donations, volunteers, or urgent assistance?",
+    "category": "emergency_response"
+  },
+  {
+    "id": "mentions_rescue_or_emergency_services",
+    "question": "Does the tweet mention police, firefighters, ambulance, emergency services, rescue teams, responders, or authorities?",
+    "category": "emergency_response"
+  },
+  {
+    "id": "mentions_evacuation_or_shelter",
+    "question": "Does the tweet mention evacuation, shelter, lockdown, refuge, relocation, or people being moved to safety?",
+    "category": "emergency_response"
+  },
+  {
+    "id": "gives_safety_instruction",
+    "question": "Does the tweet give or repeat a safety instruction, warning, alert, advisory, or protective action?",
+    "category": "emergency_response"
+  },
+  {
+    "id": "uses_metaphor_or_idiom",
+    "question": "Does the tweet use disaster-related words metaphorically or idiomatically rather than describing a real disaster?",
+    "category": "figurative_non_disaster"
+  },
+  {
+    "id": "refers_to_entertainment_or_sports",
+    "question": "Does the tweet use disaster language in entertainment, sports, gaming, music, celebrity, or fictional context?",
+    "category": "figurative_non_disaster"
+  },
+  {
+    "id": "expresses_joke_or_sarcasm",
+    "question": "Does the tweet appear humorous, sarcastic, exaggerated, or playful rather than reporting a real emergency?",
+    "category": "figurative_non_disaster"
+  },
+  {
+    "id": "discusses_non_event_context",
+    "question": "Does the tweet discuss a general topic, opinion, advertisement, or non-event context using disaster-related vocabulary?",
+    "category": "figurative_non_disaster"
+  }
+]

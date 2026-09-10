@@ -1,0 +1,25 @@
+Dataset,Input,Method,Embedding model,seed,Accuracy,Macro-F1,Positive F1
+SMS Spam,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,1,0.99,0.9772983182594166,0.9603174603174603
+SMS Spam,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,2,0.99,0.9772983182594166,0.9603174603174603
+SMS Spam,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,3,0.99,0.9772983182594166,0.9603174603174603
+SST-2,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,1,0.865,0.8641521737161626,0.8748841519925857
+SST-2,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,2,0.865,0.8641521737161626,0.8748841519925857
+SST-2,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,3,0.865,0.8641521737161626,0.8748841519925857
+ADE,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,1,0.835,0.7842502696871629,0.6796116504854369
+ADE,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,2,0.835,0.7842502696871629,0.6796116504854369
+ADE,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,3,0.835,0.7842502696871629,0.6796116504854369
+Disaster Tweets,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,1,0.818,0.813924195579984,0.7863849765258216
+Disaster Tweets,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,2,0.818,0.813924195579984,0.7863849765258216
+Disaster Tweets,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,3,0.818,0.813924195579984,0.7863849765258216
+SMS Spam,raw text,Frozen RoBERTa embedding + LR,roberta-base,1,0.989,0.9749429953143401,0.9561752988047809
+SMS Spam,raw text,Frozen RoBERTa embedding + LR,roberta-base,2,0.989,0.9749429953143401,0.9561752988047809
+SMS Spam,raw text,Frozen RoBERTa embedding + LR,roberta-base,3,0.989,0.9749429953143401,0.9561752988047809
+SST-2,raw text,Frozen RoBERTa embedding + LR,roberta-base,1,0.897,0.8960619591816141,0.9059360730593607
+SST-2,raw text,Frozen RoBERTa embedding + LR,roberta-base,2,0.897,0.8960619591816141,0.9059360730593607
+SST-2,raw text,Frozen RoBERTa embedding + LR,roberta-base,3,0.897,0.8960619591816141,0.9059360730593607
+ADE,raw text,Frozen RoBERTa embedding + LR,roberta-base,1,0.832,0.7783454011948239,0.6692913385826772
+ADE,raw text,Frozen RoBERTa embedding + LR,roberta-base,2,0.832,0.7783454011948239,0.6692913385826772
+ADE,raw text,Frozen RoBERTa embedding + LR,roberta-base,3,0.832,0.7783454011948239,0.6692913385826772
+Disaster Tweets,raw text,Frozen RoBERTa embedding + LR,roberta-base,1,0.833,0.8289969905518277,0.8028335301062574
+Disaster Tweets,raw text,Frozen RoBERTa embedding + LR,roberta-base,2,0.833,0.8289969905518277,0.8028335301062574
+Disaster Tweets,raw text,Frozen RoBERTa embedding + LR,roberta-base,3,0.833,0.8289969905518277,0.8028335301062574

@@ -1,0 +1,1758 @@
+{
+  "files": [
+    {
+      "path": "splits/ade_5000.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "7bc4457eef6a3db042691b7964f8d2b0d7df300ac763c0be7e8dea0eb593b1f6"
+    },
+    {
+      "path": "splits/disaster_5000.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "b10f1111fbf216dd0730b32ec227108571ca1087889982d8c1bdee3f56f32855"
+    },
+    {
+      "path": "splits/sms_spam_5000.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "93517529db50f53673951770e0f41ef21b476b286d132397fb7e93e32ff4eed3"
+    },
+    {
+      "path": "splits/sst2_5000.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e30346a5fc94c5c0acec698938eddb599f6afcb8ffb6379a445dc1201a539508"
+    },
+    {
+      "path": "features/unified_human20/ade_5000_human20_direct.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "24a4650a6565c04826f8da39037b9a7d377e5c433c2494f1d5891ce6b6277b93"
+    },
+    {
+      "path": "features/unified_human20/ade_5000_human20_inference.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e44a1ec678cca55ad373bd34bee619a2c377f35cb87fb3c9e344f619c36fe196"
+    },
+    {
+      "path": "features/unified_human20/ade_5000_human20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e7cef8c71c04667e1aa4a0f05290e84926404c60da61fac6aa94aa8cf29be91b"
+    },
+    {
+      "path": "features/unified_human20/disaster_tweets_5000_human20_direct.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "c22f06b7b0d13f2a66419aac4ef9f5bf06c19636b9513f03ccd36cdbb3710f08"
+    },
+    {
+      "path": "features/unified_human20/disaster_tweets_5000_human20_inference.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "f6f99cdc9bcf23e2c03fdad620bf68c99ba7106dbc13e14afae6c33d84bd6f3a"
+    },
+    {
+      "path": "features/unified_human20/disaster_tweets_5000_human20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "8e652b9feedcab9cec6e6771ec3396c75398c804c2ac41052f24f31bfb265a8d"
+    },
+    {
+      "path": "features/unified_human20/sms_spam_5000_human20_direct.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "2ee2d1ac8c91f43e150780cc8c593b0848d1516b8660d3f30b92e113a9b2780a"
+    },
+    {
+      "path": "features/unified_human20/sms_spam_5000_human20_inference.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "8f75548d4fb5efcadc18d9869f327afca42fabbb0c872f520ed80536157565d1"
+    },
+    {
+      "path": "features/unified_human20/sms_spam_5000_human20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "b0c68c52100868f18d6ad3846ba0b8af07e703db0c8a2baf9b9268086b21a4dc"
+    },
+    {
+      "path": "features/unified_human20/sst2_5000_human20_direct.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6a72b1bdbfc4b12849c4130fef87474ce00519af59cbce132ad5c774a7e654b8"
+    },
+    {
+      "path": "features/unified_human20/sst2_5000_human20_inference.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e926d08e084efb1d1ccb5bb2b06f94172051a633881e65a580734df605808f2c"
+    },
+    {
+      "path": "features/unified_human20/sst2_5000_human20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e2d7857de570a4530cc0b22c2ce4e0c9e6ef6f581e61d0088a772155af3f23cb"
+    },
+    {
+      "path": "features/unified_human20_models/ade_5000_human20_deepseek_v4_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e7cef8c71c04667e1aa4a0f05290e84926404c60da61fac6aa94aa8cf29be91b"
+    },
+    {
+      "path": "features/unified_human20_models/ade_5000_human20_gemini_2_5_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "9214f0a88a37e916a763a9d08a4283f02d5c03d29fa9a28482ab3e5ef1864bd2"
+    },
+    {
+      "path": "features/unified_human20_models/ade_5000_human20_gpt_4_1_mini.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e71b5574a1b7cf4a3eb3eb1b3372a7e4897ee069ad87070022054bfff0a85059"
+    },
+    {
+      "path": "features/unified_human20_models/ade_5000_human20_qwen_plus.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_medication_or_drug",
+        "mentions_dose_or_frequency",
+        "mentions_drug_discontinuation",
+        "mentions_drug_interaction",
+        "mentions_symptom_or_condition",
+        "mentions_adverse_reaction",
+        "mentions_severity",
+        "mentions_lab_or_diagnostic_abnormality",
+        "links_event_to_medication",
+        "mentions_temporal_after_use",
+        "mentions_rechallenge_or_recovery",
+        "mentions_onset_or_duration",
+        "contains_negation_no_event",
+        "contains_uncertainty_or_possible",
+        "states_alternative_cause",
+        "reports_no_drug_link",
+        "mentions_study_or_trial_context",
+        "mentions_expected_therapeutic_effect",
+        "describes_indication_or_background",
+        "discusses_general_pharmacology"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6aa53401403657ca877795e7fa0d7fc4d29840859a6d6982e5e4665db11618c8"
+    },
+    {
+      "path": "features/unified_human20_models/disaster_tweets_5000_human20_deepseek_v4_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "8e652b9feedcab9cec6e6771ec3396c75398c804c2ac41052f24f31bfb265a8d"
+    },
+    {
+      "path": "features/unified_human20_models/disaster_tweets_5000_human20_gemini_2_5_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6b5e7bb1236fd06a7c90c3475c2606098c6ccfee1727a02e8dfe996b884ecaf8"
+    },
+    {
+      "path": "features/unified_human20_models/disaster_tweets_5000_human20_gpt_4_1_mini.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "4ace0d32fffed7ac05ba708d5c0ef4baadad983b0be357e32bcfb470b11bb7b6"
+    },
+    {
+      "path": "features/unified_human20_models/disaster_tweets_5000_human20_qwen_plus.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_disaster_type",
+        "reports_event_occurrence",
+        "describes_threat_or_danger",
+        "mentions_cause_or_trigger",
+        "mentions_location",
+        "mentions_time_or_recency",
+        "includes_source_or_report",
+        "first_person_witnessing",
+        "mentions_casualties_or_injuries",
+        "mentions_property_damage",
+        "mentions_infrastructure_disruption",
+        "mentions_scale_or_intensity",
+        "calls_for_help",
+        "mentions_rescue_or_emergency_services",
+        "mentions_evacuation_or_shelter",
+        "gives_safety_instruction",
+        "uses_metaphor_or_idiom",
+        "refers_to_entertainment_or_sports",
+        "expresses_joke_or_sarcasm",
+        "discusses_non_event_context"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "564b92cf7b18b8bc04c3cedb1a09b49ef97e7418857e23507457037299eaa1c5"
+    },
+    {
+      "path": "features/unified_human20_models/sms_spam_5000_human20_deepseek_v4_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "b0c68c52100868f18d6ad3846ba0b8af07e703db0c8a2baf9b9268086b21a4dc"
+    },
+    {
+      "path": "features/unified_human20_models/sms_spam_5000_human20_gemini_2_5_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "f7ab2c603cf58980aa425f8ac9192652e278d5d6a8a7f294ae4c699cb4b16948"
+    },
+    {
+      "path": "features/unified_human20_models/sms_spam_5000_human20_gpt_4_1_mini.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "a76d9032bbcb49b656dbd7a0a2048ecdb3cb5f490b5dc3605e1211a22f1f7e92"
+    },
+    {
+      "path": "features/unified_human20_models/sms_spam_5000_human20_qwen_plus.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "mentions_prize_reward_gift",
+        "claims_winner_or_selected",
+        "impersonates_official_entity",
+        "uses_promotional_or_marketing_claim",
+        "mentions_money_payment",
+        "mentions_free_offer",
+        "mentions_discount_or_rate",
+        "mentions_financial_gain_or_cost",
+        "creates_urgency",
+        "uses_deadline_or_expiry",
+        "threatens_loss_or_penalty",
+        "contains_all_caps_or_exclamation_emphasis",
+        "asks_click_link",
+        "asks_user_reply_or_call",
+        "requests_personal_information",
+        "requests_immediate_action",
+        "normal_personal_conversation",
+        "mentions_meeting_family_friends",
+        "uses_casual_emotional_language",
+        "refers_previous_conversation"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6d7e9be0fd623b218d2db532dd9f9d850fbb2f31b78b7f2d70b7b3fcdcf49492"
+    },
+    {
+      "path": "features/unified_human20_models/sst2_5000_human20_deepseek_v4_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e2d7857de570a4530cc0b22c2ce4e0c9e6ef6f581e61d0088a772155af3f23cb"
+    },
+    {
+      "path": "features/unified_human20_models/sst2_5000_human20_gemini_2_5_flash.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "ee7c94809bd1434c579949fe8836f53e3b16cf291d91fde73c445d59bdde3a04"
+    },
+    {
+      "path": "features/unified_human20_models/sst2_5000_human20_gpt_4_1_mini.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "150cc723e1749645b881c551c5af23a63e4696429100ab0e3c2e3c38ddf31f5e"
+    },
+    {
+      "path": "features/unified_human20_models/sst2_5000_human20_qwen_plus.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "expresses_positive_emotion",
+        "contains_praise",
+        "mentions_enjoyment",
+        "describes_high_quality",
+        "expresses_negative_emotion",
+        "contains_criticism",
+        "mentions_disappointment",
+        "describes_low_quality",
+        "mentions_good_acting_or_writing",
+        "mentions_bad_acting_or_writing",
+        "contains_comparison",
+        "uses_strong_opinion",
+        "contains_irony_or_sarcasm",
+        "contains_mixed_sentiment",
+        "sounds_uncertain",
+        "uses_emotional_language",
+        "contains_recommendation",
+        "mentions_exciting_content",
+        "mentions_boredom",
+        "sounds_confident"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "a96549549c287498d4674f9dc77d412fa1f5df0f35cde20848f81edabc9f996d"
+    },
+    {
+      "path": "features/schema_sensitivity/ade_5000_alt20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "ade_alt_c01",
+        "ade_alt_c02",
+        "ade_alt_c03",
+        "ade_alt_c04",
+        "ade_alt_c09",
+        "ade_alt_c10",
+        "ade_alt_c11",
+        "ade_alt_c12",
+        "ade_alt_c17",
+        "ade_alt_c18",
+        "ade_alt_c19",
+        "ade_alt_c20",
+        "ade_alt_c29",
+        "ade_alt_c26",
+        "ade_alt_c27",
+        "ade_alt_c28",
+        "ade_alt_c37",
+        "ade_alt_c39",
+        "ade_alt_c35",
+        "ade_alt_c36"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "2f01168048c662493d41f9842d997fdedd32e99d609719819de0dae5cf72b5b5"
+    },
+    {
+      "path": "features/schema_sensitivity/disaster_tweets_5000_alt20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "disaster_alt_c02",
+        "disaster_alt_c04",
+        "disaster_alt_c06",
+        "disaster_alt_c07",
+        "disaster_alt_c09",
+        "disaster_alt_c10",
+        "disaster_alt_c11",
+        "disaster_alt_c12",
+        "disaster_alt_c17",
+        "disaster_alt_c18",
+        "disaster_alt_c19",
+        "disaster_alt_c21",
+        "disaster_alt_c25",
+        "disaster_alt_c26",
+        "disaster_alt_c27",
+        "disaster_alt_c28",
+        "disaster_alt_c33",
+        "disaster_alt_c34",
+        "disaster_alt_c35",
+        "disaster_alt_c38"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "5e64cd1783f404e4eb0c8ac4a3aa9b94e14c38f519281d3a6f31496b900d1335"
+    },
+    {
+      "path": "features/schema_sensitivity/sms_spam_5000_alt20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "sms_alt_c01",
+        "sms_alt_c02",
+        "sms_alt_c03",
+        "sms_alt_c04",
+        "sms_alt_c09",
+        "sms_alt_c10",
+        "sms_alt_c11",
+        "sms_alt_c12",
+        "sms_alt_c17",
+        "sms_alt_c18",
+        "sms_alt_c19",
+        "sms_alt_c20",
+        "sms_alt_c25",
+        "sms_alt_c27",
+        "sms_alt_c29",
+        "sms_alt_c30",
+        "sms_alt_c33",
+        "sms_alt_c34",
+        "sms_alt_c35",
+        "sms_alt_c36"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "3e51af0198a1c4deb9cc58be3ea01293075ad5c26562d80559f14a90c944bfec"
+    },
+    {
+      "path": "features/schema_sensitivity/sst2_5000_alt20_strict.csv",
+      "rows": 5000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "sst2_alt_c02",
+        "sst2_alt_c03",
+        "sst2_alt_c06",
+        "sst2_alt_c07",
+        "sst2_alt_c10",
+        "sst2_alt_c11",
+        "sst2_alt_c13",
+        "sst2_alt_c14",
+        "sst2_alt_c17",
+        "sst2_alt_c18",
+        "sst2_alt_c19",
+        "sst2_alt_c20",
+        "sst2_alt_c25",
+        "sst2_alt_c26",
+        "sst2_alt_c27",
+        "sst2_alt_c31",
+        "sst2_alt_c33",
+        "sst2_alt_c34",
+        "sst2_alt_c35",
+        "sst2_alt_c38"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "18f6f96b13a98c9b44f5f95b745b646f92691f6f688e7c78fdc2871181fff305"
+    },
+    {
+      "path": "llm_predictions/unified_human20/ade_4shot_seed1.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "066509473d333bc4023b7d792dca26e2301764399419875d65193877266fc7b0"
+    },
+    {
+      "path": "llm_predictions/unified_human20/ade_4shot_seed2.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "f60311888b2f472c5e10b5046166517aef704281ee88f5b65bc1c7e8f5540d6d"
+    },
+    {
+      "path": "llm_predictions/unified_human20/ade_4shot_seed3.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "a6c7e42ab5c0b29f10a06fb179c406ae49a59a26c4309f0c9a38b0d9f0058f61"
+    },
+    {
+      "path": "llm_predictions/unified_human20/ade_zero_shot.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "f46cb773f4c8f35ad2c6ad0afc1f16cce4e0b66c2e871435c86c924ce8bd493c"
+    },
+    {
+      "path": "llm_predictions/unified_human20/disaster_tweets_4shot_seed1.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "d6eebd4ff23d5d2d9e3d79b2cbe6ba8d971d4a7f1eb65c3ed532d56b29944d58"
+    },
+    {
+      "path": "llm_predictions/unified_human20/disaster_tweets_4shot_seed2.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "5448149a77dea276727814e590892e941b9c38ff7b62f3b76562f682e891d5f9"
+    },
+    {
+      "path": "llm_predictions/unified_human20/disaster_tweets_4shot_seed3.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "570529d24514420b7f6d2861a79a98f6f416031bd87832cfb572468eced199f4"
+    },
+    {
+      "path": "llm_predictions/unified_human20/disaster_tweets_zero_shot.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "d67f51c22051d6dbaf64d882aa4fee5a63a15c9b7c13ffe5339b68b7f55eb4ae"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sms_spam_4shot_seed1.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "2ab36559b42f6596026eefd01aabd3f323c951a066f777c1deee3fa8e3eb004b"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sms_spam_4shot_seed2.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "ab64e9d92cc1d4fdde6750be16d8ffdafca267155fa12ebcb3c41dcbf4d9360a"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sms_spam_4shot_seed3.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6051df67b9681654cb74dd800f4e7d4d0afeee5085999c42a12f3d7149419404"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sms_spam_zero_shot.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "1a5f3e5367b1aec5fa7c6a3c4890e28b9bc9e9f86118d76e1a5119265176f9c2"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sst2_4shot_seed1.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "0aa5e9c034f1869f30d33c5c3d787c9f6c2b01a7959f1d5eb331dfc68b8159ee"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sst2_4shot_seed2.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "0c4db382ad66c7dc03b56c231ec6d21c98de25af5f06331746535a2fc181ea55"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sst2_4shot_seed3.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "e9049867642a236d80922393fb297aee4b493dc8f1028b6556ccc2bfdfd20180"
+    },
+    {
+      "path": "llm_predictions/unified_human20/sst2_zero_shot.csv",
+      "rows": 1000,
+      "columns": [
+        "id",
+        "source_id",
+        "split",
+        "label",
+        "prediction",
+        "shots",
+        "example_seed"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "17614f41b331dd7f1d242c12f6104e13942da5f07033ad1b0468e0e8bc630a8b"
+    },
+    {
+      "path": "results/concept_audit_feature_level.csv",
+      "rows": 80,
+      "columns": [
+        "Dataset",
+        "Feature",
+        "Annotated entries",
+        "Scored entries",
+        "Unclear entries",
+        "Unclear rate",
+        "Agreement",
+        "Cohen kappa",
+        "Positive agreement",
+        "LLM false-positive rate",
+        "LLM false-negative rate"
+      ],
+      "removed_columns": [],
+      "sha256": "2447f7288754aac4065bc9368639b7f207b34538ea5320fe242a801c880b8aa2"
+    },
+    {
+      "path": "results/cross_extractor_transfer_details.csv",
+      "rows": 64,
+      "columns": [
+        "Dataset",
+        "Source extractor",
+        "Target extractor",
+        "Train rows",
+        "Test rows",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1",
+        "Source in-domain Macro-F1",
+        "Delta vs source in-domain",
+        "Target in-domain Macro-F1",
+        "Delta vs target in-domain"
+      ],
+      "removed_columns": [],
+      "sha256": "51e0adcdc2f857977a3fb72f14b131c298132e1010782cd118ef38ebe26f23e9"
+    },
+    {
+      "path": "results/embedding_lr_baseline_by_seed.csv",
+      "rows": 24,
+      "columns": [
+        "Dataset",
+        "Input",
+        "Method",
+        "Embedding model",
+        "seed",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1"
+      ],
+      "removed_columns": [],
+      "sha256": "85e328cd8c79a004f594bca54dfd5aeecc37e66afeb53121adc5f3519c9c1a30"
+    },
+    {
+      "path": "results/human_concept_intervention_by_dataset.csv",
+      "rows": 4,
+      "columns": [
+        "Dataset",
+        "Audit examples",
+        "Feature cells",
+        "Feature disagreement rate",
+        "Original accuracy",
+        "Human-corrected accuracy",
+        "Delta accuracy",
+        "Original Macro-F1",
+        "Human-corrected Macro-F1",
+        "Delta Macro-F1",
+        "Changed predictions",
+        "Errors fixed",
+        "Errors introduced",
+        "Net fixed errors"
+      ],
+      "removed_columns": [],
+      "sha256": "df9808deb4cc2fbc22afb28a88c9b2070090508b91f6c873ff11b39b2c5423cc"
+    },
+    {
+      "path": "results/human_concept_intervention_examples.csv",
+      "rows": 79,
+      "columns": [
+        "Dataset",
+        "id",
+        "label",
+        "original_pred",
+        "human_corrected_pred",
+        "original_correct",
+        "human_corrected_correct",
+        "changed_feature_count"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "f285a8d5b458ff834b15f1de8959e8efadd450f510778e038ceae877a0c9557e"
+    },
+    {
+      "path": "results/label_proxy_feature_details.csv",
+      "rows": 80,
+      "columns": [
+        "Dataset",
+        "Feature",
+        "Category",
+        "Question",
+        "Positive label yes-rate",
+        "Negative label yes-rate",
+        "Absolute yes-rate gap",
+        "Direction",
+        "Mutual information",
+        "LR coefficient",
+        "Proxy strength",
+        "Proxy taxonomy"
+      ],
+      "removed_columns": [],
+      "sha256": "9236e2cd0bac16321fbb0ce3939d2db81da002718c3de7fff05af91f9e680a88"
+    },
+    {
+      "path": "results/schema_resampling_panels.csv",
+      "rows": 400,
+      "columns": [
+        "Dataset",
+        "Panel",
+        "Sampling seed",
+        "Original features",
+        "Alternative features",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1",
+        "Delta Macro-F1 vs original",
+        "Feature ids"
+      ],
+      "removed_columns": [],
+      "sha256": "6de094dd1cef2364de8f92f1adbc5678a07f404189e51c08a7794cc878226b51"
+    },
+    {
+      "path": "results/schema_sensitivity_by_seed.csv",
+      "rows": 24,
+      "columns": [
+        "Dataset",
+        "Schema",
+        "seed",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1"
+      ],
+      "removed_columns": [],
+      "sha256": "f2b73ed6cf291236c6a17007d0dd3d64f9c5d633046dc48205cb5e7e8916bc28"
+    },
+    {
+      "path": "results/second_annotator_agreement_feature_level.csv",
+      "rows": 80,
+      "columns": [
+        "Dataset",
+        "Feature",
+        "Scored entries",
+        "Unclear pairs",
+        "Agreement",
+        "Cohen's kappa",
+        "Positive agreement"
+      ],
+      "removed_columns": [],
+      "sha256": "d85a98e92c01bb0394b48a7dd95d7379a684dd9084e4ccf63594bc14bdbfb5b8"
+    },
+    {
+      "path": "results/second_annotator_annotations_long.csv",
+      "rows": 8000,
+      "columns": [
+        "dataset",
+        "dataset_key",
+        "id",
+        "feature_id",
+        "annotator2_value"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "6b5d92c56178e3042abccd6e84af0b291adb91b86e4a56b2b0d418eb07707cbf"
+    },
+    {
+      "path": "results/strong_proxy_removal_details.csv",
+      "rows": 24,
+      "columns": [
+        "Dataset",
+        "Feature",
+        "Category",
+        "Question",
+        "Direction",
+        "Positive label yes-rate",
+        "Negative label yes-rate",
+        "Absolute yes-rate gap",
+        "Mutual information"
+      ],
+      "removed_columns": [],
+      "sha256": "486e8c96e92658fe5a6bf84fd9d403bad4b56b7e854226c51a3bf19d53e8e491"
+    },
+    {
+      "path": "results/unified_api_cost_summary_details.csv",
+      "rows": 4,
+      "columns": [
+        "Scope",
+        "Platform",
+        "Model",
+        "Datasets",
+        "Feature rows",
+        "API responses",
+        "Manual/unbilled rows",
+        "Input tokens",
+        "Cached input tokens",
+        "Output tokens",
+        "Visible output tokens",
+        "Thinking tokens",
+        "Total tokens",
+        "Currency",
+        "Input price / 1M",
+        "Output price / 1M",
+        "Estimated cost",
+        "Price basis"
+      ],
+      "removed_columns": [],
+      "sha256": "44d83bf7f29eee4abe4eae009f849f6100601e0f7fa4169d3b18bfca84c6d62a"
+    },
+    {
+      "path": "results/unified_counterfactual_feature_edits.csv",
+      "rows": 479,
+      "columns": [
+        "Dataset",
+        "id",
+        "label",
+        "y_true",
+        "original_pred",
+        "original_score",
+        "minimal_edit_distance"
+      ],
+      "removed_columns": [
+        "text"
+      ],
+      "sha256": "1d92feeb98ba3a82ade62cc68079976d97934e3f4fc486a852ed5d58c81138ba"
+    },
+    {
+      "path": "results/unified_feature_group_ablation_full.csv",
+      "rows": 24,
+      "columns": [
+        "Dataset",
+        "Feature group used",
+        "#Features",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1"
+      ],
+      "removed_columns": [],
+      "sha256": "81a2ccb09b156dd7e82b0ec81a071aefe69825a23b33680e80ada8adcf2afaa6"
+    },
+    {
+      "path": "results/unified_method_performance_by_seed.csv",
+      "rows": 84,
+      "columns": [
+        "Dataset",
+        "Input",
+        "Method",
+        "seed",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1"
+      ],
+      "removed_columns": [],
+      "sha256": "2b7ecd6cfdc10ff53fb0dcaeef2ca3e81f39bdd26692f797b1cfe664612425a4"
+    },
+    {
+      "path": "results/unified_mi_feature_selection_ranking.csv",
+      "rows": 80,
+      "columns": [
+        "Dataset",
+        "Rank",
+        "Feature",
+        "Mutual information"
+      ],
+      "removed_columns": [],
+      "sha256": "131b962c2e65cb57bc35a5074cc9d0e6a0697aa0f76556b8a6bab89aa2e1c2fa"
+    },
+    {
+      "path": "results/unified_mi_feature_selection_sensitivity_details.csv",
+      "rows": 16,
+      "columns": [
+        "Dataset",
+        "Feature set",
+        "#Features",
+        "Accuracy",
+        "Macro-F1",
+        "Positive F1",
+        "Selected features"
+      ],
+      "removed_columns": [],
+      "sha256": "2bb71a727168890566648846b1dc3af0012bace9d6281ed8d8864e5cad774ee9"
+    },
+    {
+      "path": "concept_audit/concept_audit_annotations.csv",
+      "rows": 8000,
+      "columns": [
+        "dataset",
+        "dataset_key",
+        "id",
+        "feature_id",
+        "feature_category",
+        "feature_question",
+        "human_value"
+      ],
+      "removed_columns": [
+        "notes",
+        "text"
+      ],
+      "sha256": "9a1304604db7e58cd5ce769a247ef3b2a41431a813e62affd7d71d41171866d8"
+    },
+    {
+      "path": "concept_audit/concept_audit_feature_guide.csv",
+      "rows": 80,
+      "columns": [
+        "dataset",
+        "dataset_key",
+        "feature_id",
+        "feature_category",
+        "feature_question"
+      ],
+      "removed_columns": [],
+      "sha256": "28100409895db6b3606a86239375916f83f46abf770b3230cdb26dbebd45efda"
+    },
+    {
+      "path": "concept_audit/concept_audit_key.csv",
+      "rows": 8000,
+      "columns": [
+        "dataset",
+        "dataset_key",
+        "id",
+        "label",
+        "feature_id",
+        "llm_value"
+      ],
+      "removed_columns": [],
+      "sha256": "c1081fb3ec8736403b54da0a55590cafbea5fb47d410625542b0ca09b82f957d"
+    }
+  ]
+}

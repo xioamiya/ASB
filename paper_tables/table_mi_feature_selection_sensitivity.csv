@@ -1,0 +1,17 @@
+Dataset,Feature set,#Features,Accuracy,Macro-F1,Positive F1
+SMS Spam,All ASB features,20,0.9710,0.9373,0.8914
+SMS Spam,MI top-5,5,0.9710,0.9373,0.8914
+SMS Spam,MI top-10,10,0.9680,0.9315,0.8815
+SMS Spam,MI top-15,15,0.9690,0.9338,0.8856
+SST-2,All ASB features,20,0.9360,0.9349,0.9433
+SST-2,MI top-5,5,0.8920,0.8920,0.8937
+SST-2,MI top-10,10,0.8970,0.8970,0.8991
+SST-2,MI top-15,15,0.9400,0.9387,0.9477
+ADE,All ASB features,20,0.7980,0.7577,0.6588
+ADE,MI top-5,5,0.7980,0.7595,0.6633
+ADE,MI top-10,10,0.8040,0.7639,0.6667
+ADE,MI top-15,15,0.7990,0.7586,0.6599
+Disaster Tweets,All ASB features,20,0.8160,0.8073,0.7665
+Disaster Tweets,MI top-5,5,0.8000,0.7935,0.7567
+Disaster Tweets,MI top-10,10,0.8180,0.8093,0.7684
+Disaster Tweets,MI top-15,15,0.8160,0.8082,0.7694

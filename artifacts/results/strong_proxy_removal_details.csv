@@ -1,0 +1,25 @@
+Dataset,Feature,Category,Question,Direction,Positive label yes-rate,Negative label yes-rate,Absolute yes-rate gap,Mutual information
+SMS Spam,mentions_prize_reward_gift,deception,"Does the message mention a prize, reward, gift, lottery, or competition win?",spam,0.4237,0.0046,0.4191,0.107544
+SMS Spam,uses_promotional_or_marketing_claim,deception,Does the message use promotional or marketing language to persuade the recipient?,spam,0.8835,0.0089,0.8747,0.273269
+SMS Spam,mentions_money_payment,money,"Does the message mention money, payment, cash, credit, charges, fees, or account balance?",spam,0.6285,0.0428,0.5857,0.121406
+SMS Spam,mentions_financial_gain_or_cost,money,"Does the message mention financial gain, savings, compensation, debt, billing, or cost?",spam,0.6406,0.0440,0.5966,0.124193
+SMS Spam,asks_user_reply_or_call,action_request,"Does the message ask the recipient to reply, text back, call, or contact a number?",spam,0.8594,0.0623,0.7972,0.187512
+SMS Spam,requests_immediate_action,action_request,Does the message request an immediate action from the recipient?,spam,0.7068,0.0420,0.6649,0.148476
+SMS Spam,normal_personal_conversation,personal_normal,Does the message sound like a normal personal conversation rather than a promotion or alert?,not spam,0.0241,0.9654,0.9414,0.280070
+SMS Spam,uses_casual_emotional_language,personal_normal,"Does the message use casual, affectionate, humorous, or emotional language typical of personal messages?",not spam,0.1165,0.9240,0.8076,0.185929
+SMS Spam,refers_previous_conversation,personal_normal,"Does the message refer to a previous conversation, shared context, or an ongoing personal exchange?",not spam,0.0462,0.6665,0.6203,0.096450
+SST-2,expresses_positive_emotion,positive_sentiment,"Does the sentence express positive emotion, approval, pleasure, or enthusiasm?",positive,0.8128,0.0135,0.7992,0.389457
+SST-2,contains_praise,positive_sentiment,"Does the sentence praise the movie, a creative element, or the viewing experience?",positive,0.7988,0.0113,0.7876,0.381196
+SST-2,describes_high_quality,positive_sentiment,"Does the sentence describe the movie or an aspect of it as high quality, effective, or well made?",positive,0.5748,0.0073,0.5674,0.230419
+SST-2,expresses_negative_emotion,negative_sentiment,"Does the sentence express negative emotion, dislike, frustration, or disapproval?",not positive,0.0364,0.8156,0.7792,0.366034
+SST-2,contains_criticism,negative_sentiment,"Does the sentence criticize the movie, a creative element, or the viewing experience?",not positive,0.0332,0.8094,0.7761,0.365605
+SST-2,mentions_disappointment,negative_sentiment,"Does the sentence indicate disappointment, failure, wasted potential, or dissatisfaction?",not positive,0.0085,0.4258,0.4173,0.161557
+SST-2,describes_low_quality,negative_sentiment,"Does the sentence describe the movie or an aspect of it as low quality, ineffective, or poorly made?",not positive,0.0112,0.6277,0.6165,0.270271
+ADE,mentions_adverse_reaction,clinical_event,"Does the text describe an adverse reaction, side effect, toxicity, complication, or harm?",ade,0.9645,0.4142,0.5503,0.120754
+ADE,links_event_to_medication,causality_temporality,Does the text suggest that a clinical event is linked to a medication or treatment?,ade,0.9682,0.3265,0.6417,0.158251
+Disaster Tweets,mentions_disaster_type,disaster_event,"Does the tweet mention a disaster or hazard type such as fire, flood, earthquake, storm, crash, explosion, or attack?",real disaster,0.6731,0.1198,0.5533,0.171220
+Disaster Tweets,reports_event_occurrence,disaster_event,"Does the tweet report that a real harmful event is happening, happened, or is expected to happen?",real disaster,0.5839,0.0375,0.5465,0.202545
+Disaster Tweets,describes_threat_or_danger,disaster_event,"Does the tweet describe a threat, danger, unsafe condition, or risk to people or places?",real disaster,0.5663,0.1102,0.4561,0.123977
+Disaster Tweets,mentions_location,grounding,"Does the tweet mention a specific location, place, city, country, street, venue, or geographic area?",real disaster,0.6344,0.1542,0.4802,0.126234
+Disaster Tweets,includes_source_or_report,grounding,"Does the tweet cite a news source, official report, eyewitness report, alert, or external information source?",real disaster,0.5088,0.1045,0.4043,0.102397
+Disaster Tweets,discusses_non_event_context,figurative_non_disaster,"Does the tweet discuss a general topic, opinion, advertisement, or non-event context using disaster-related vocabulary?",not real disaster,0.2248,0.7626,0.5379,0.149329

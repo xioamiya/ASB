@@ -1,0 +1,5 @@
+Scope,Platform,Model,Datasets,Feature rows,API responses,Manual/unbilled rows,Input tokens,Cached input tokens,Output tokens,Visible output tokens,Thinking tokens,Total tokens,Currency,Input price / 1M,Output price / 1M,Estimated cost,Price basis
+ADE + Disaster Tweets ASB feature extraction,DeepSeek,deepseek-v4-flash,ADE; Disaster Tweets,10000,10000,0,7094383,3498880,2630000,2630000,0,9724383,USD,0.1400,0.2800,1.2496,cache-aware v4-flash estimate
+ADE + Disaster Tweets ASB feature extraction,OpenAI,gpt-4.1-mini,ADE; Disaster Tweets,10000,10000,0,6764683,0,2061781,2061781,0,8826464,USD,0.4000,1.6000,6.0047,GPT-4.1 mini text tokens
+ADE + Disaster Tweets ASB feature extraction,Qwen,qwen-plus,ADE; Disaster Tweets,10000,10000,0,6781403,2048,2149891,2149891,0,8931294,USD,0.1150,0.2870,1.3969,Alibaba Cloud qwen-plus 0-128K non-thinking estimate
+ADE + Disaster Tweets ASB feature extraction,Google,gemini-2.5-flash,ADE; Disaster Tweets,10000,9998,2,7294749,0,10248630,2578212,7670418,17543379,USD,0.3000,2.5000,27.8100,Gemini 2.5 Flash; output includes thinking tokens

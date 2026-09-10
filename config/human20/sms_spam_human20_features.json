@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mentions_prize_reward_gift",
+    "question": "Does the message mention a prize, reward, gift, lottery, or competition win?",
+    "category": "deception"
+  },
+  {
+    "id": "claims_winner_or_selected",
+    "question": "Does the message claim that the recipient has won, been selected, or qualified for something?",
+    "category": "deception"
+  },
+  {
+    "id": "impersonates_official_entity",
+    "question": "Does the message appear to impersonate an official company, service, bank, agency, or support team?",
+    "category": "deception"
+  },
+  {
+    "id": "uses_promotional_or_marketing_claim",
+    "question": "Does the message use promotional or marketing language to persuade the recipient?",
+    "category": "deception"
+  },
+  {
+    "id": "mentions_money_payment",
+    "question": "Does the message mention money, payment, cash, credit, charges, fees, or account balance?",
+    "category": "money"
+  },
+  {
+    "id": "mentions_free_offer",
+    "question": "Does the message mention a free offer, free product, free service, or free access?",
+    "category": "money"
+  },
+  {
+    "id": "mentions_discount_or_rate",
+    "question": "Does the message mention a discount, special rate, cheap price, tariff, or deal?",
+    "category": "money"
+  },
+  {
+    "id": "mentions_financial_gain_or_cost",
+    "question": "Does the message mention financial gain, savings, compensation, debt, billing, or cost?",
+    "category": "money"
+  },
+  {
+    "id": "creates_urgency",
+    "question": "Does the message create urgency or pressure to act quickly?",
+    "category": "urgency"
+  },
+  {
+    "id": "uses_deadline_or_expiry",
+    "question": "Does the message mention a deadline, expiry, limited time, today-only offer, or final notice?",
+    "category": "urgency"
+  },
+  {
+    "id": "threatens_loss_or_penalty",
+    "question": "Does the message warn that the recipient may lose access, money, benefits, or an opportunity?",
+    "category": "urgency"
+  },
+  {
+    "id": "contains_all_caps_or_exclamation_emphasis",
+    "question": "Does the message use all-caps, repeated punctuation, or emphatic formatting to increase pressure?",
+    "category": "urgency"
+  },
+  {
+    "id": "asks_click_link",
+    "question": "Does the message ask the recipient to click, visit, open, or follow a link or website?",
+    "category": "action_request"
+  },
+  {
+    "id": "asks_user_reply_or_call",
+    "question": "Does the message ask the recipient to reply, text back, call, or contact a number?",
+    "category": "action_request"
+  },
+  {
+    "id": "requests_personal_information",
+    "question": "Does the message ask for personal, account, identity, password, PIN, or verification information?",
+    "category": "action_request"
+  },
+  {
+    "id": "requests_immediate_action",
+    "question": "Does the message request an immediate action from the recipient?",
+    "category": "action_request"
+  },
+  {
+    "id": "normal_personal_conversation",
+    "question": "Does the message sound like a normal personal conversation rather than a promotion or alert?",
+    "category": "personal_normal"
+  },
+  {
+    "id": "mentions_meeting_family_friends",
+    "question": "Does the message mention meeting, plans, family, friends, school, work, or daily life?",
+    "category": "personal_normal"
+  },
+  {
+    "id": "uses_casual_emotional_language",
+    "question": "Does the message use casual, affectionate, humorous, or emotional language typical of personal messages?",
+    "category": "personal_normal"
+  },
+  {
+    "id": "refers_previous_conversation",
+    "question": "Does the message refer to a previous conversation, shared context, or an ongoing personal exchange?",
+    "category": "personal_normal"
+  }
+]

@@ -1,0 +1,5 @@
+Dataset,Task,Original size,Cleaned size,Sample size,Train,Test,Positive label,Positive ratio
+SMS Spam,spam detection,5572,5157,5000,4000,1000,spam,12.4%
+SST-2,sentiment,68221,67850,5000,4000,1000,positive,55.7%
+ADE,adverse drug event detection,23516,20895,5000,4000,1000,ADE,20.4%
+Disaster Tweets,disaster detection,7613,7501,5000,4000,1000,real disaster,42.6%

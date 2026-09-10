@@ -1,0 +1,480 @@
+Dataset,id,label,y_true,original_pred,original_score,minimal_edit_distance
+SMS Spam,sms_spam_00051,ham,0,1,0.2513,1
+SMS Spam,sms_spam_00826,ham,0,1,1.7496,1
+SMS Spam,sms_spam_00910,ham,0,1,0.9524,1
+SMS Spam,sms_spam_01198,ham,0,1,2.4311,1
+SMS Spam,sms_spam_01549,ham,0,1,1.2960,1
+SMS Spam,sms_spam_01637,ham,0,1,2.4507,1
+SMS Spam,sms_spam_01769,ham,0,1,1.7435,1
+SMS Spam,sms_spam_02005,ham,0,1,4.8631,3
+SMS Spam,sms_spam_02060,ham,0,1,2.2706,1
+SMS Spam,sms_spam_02065,spam,1,0,-3.5312,2
+SMS Spam,sms_spam_02082,spam,1,0,-0.1673,1
+SMS Spam,sms_spam_02348,ham,0,1,0.9874,1
+SMS Spam,sms_spam_02410,ham,0,1,2.8692,1
+SMS Spam,sms_spam_02552,ham,0,1,1.4602,1
+SMS Spam,sms_spam_02913,spam,1,0,-3.5312,2
+SMS Spam,sms_spam_02994,ham,0,1,4.2860,2
+SMS Spam,sms_spam_03047,ham,0,1,1.4060,1
+SMS Spam,sms_spam_03052,ham,0,1,0.2513,1
+SMS Spam,sms_spam_03104,spam,1,0,-2.2137,1
+SMS Spam,sms_spam_03658,ham,0,1,3.2389,2
+SMS Spam,sms_spam_03696,ham,0,1,2.7943,1
+SMS Spam,sms_spam_03701,ham,0,1,0.6043,1
+SMS Spam,sms_spam_04120,ham,0,1,1.4911,1
+SMS Spam,sms_spam_04295,spam,1,0,-2.7750,1
+SMS Spam,sms_spam_04348,ham,0,1,1.1474,1
+SMS Spam,sms_spam_04571,ham,0,1,2.0068,1
+SMS Spam,sms_spam_04574,ham,0,1,0.9524,1
+SMS Spam,sms_spam_04596,ham,0,1,0.9932,1
+SMS Spam,sms_spam_04657,ham,0,1,2.6315,1
+SST-2,sst2_00051,positive,1,0,-3.7083,3
+SST-2,sst2_00145,negative,0,1,0.0829,1
+SST-2,sst2_00165,negative,0,1,0.0829,1
+SST-2,sst2_00209,positive,1,0,-5.1570,
+SST-2,sst2_00311,negative,0,1,0.0829,1
+SST-2,sst2_00336,negative,0,1,0.0829,1
+SST-2,sst2_00340,negative,0,1,0.0829,1
+SST-2,sst2_00344,positive,1,0,-3.1489,2
+SST-2,sst2_00391,positive,1,0,-0.9130,1
+SST-2,sst2_00537,negative,0,1,0.0829,1
+SST-2,sst2_00689,negative,0,1,0.0829,1
+SST-2,sst2_00722,positive,1,0,-1.1016,1
+SST-2,sst2_00761,negative,0,1,0.0829,1
+SST-2,sst2_00808,positive,1,0,-3.7094,3
+SST-2,sst2_00898,negative,0,1,0.0829,1
+SST-2,sst2_00902,positive,1,0,-0.4390,1
+SST-2,sst2_01021,positive,1,0,-5.6882,
+SST-2,sst2_01042,positive,1,0,-0.4694,1
+SST-2,sst2_01078,positive,1,0,-0.6009,1
+SST-2,sst2_01141,negative,0,1,0.8547,1
+SST-2,sst2_01265,negative,0,1,0.0829,1
+SST-2,sst2_01270,negative,0,1,0.1194,1
+SST-2,sst2_01377,positive,1,0,-0.4694,1
+SST-2,sst2_01506,negative,0,1,0.0829,1
+SST-2,sst2_01620,positive,1,0,-0.4694,1
+SST-2,sst2_01746,positive,1,0,-1.3610,1
+SST-2,sst2_01798,positive,1,0,-1.1016,1
+SST-2,sst2_01820,negative,0,1,0.1438,1
+SST-2,sst2_01868,negative,0,1,0.0829,1
+SST-2,sst2_01942,positive,1,0,-0.4694,1
+SST-2,sst2_02154,positive,1,0,-3.0349,2
+SST-2,sst2_02406,negative,0,1,0.9256,1
+SST-2,sst2_02429,negative,0,1,0.0829,1
+SST-2,sst2_02492,negative,0,1,0.0829,1
+SST-2,sst2_02611,positive,1,0,-1.6539,1
+SST-2,sst2_02647,negative,0,1,0.0829,1
+SST-2,sst2_02696,positive,1,0,-0.3098,1
+SST-2,sst2_02786,negative,0,1,0.0829,1
+SST-2,sst2_02891,negative,0,1,4.0535,3
+SST-2,sst2_02900,negative,0,1,4.9451,3
+SST-2,sst2_03031,negative,0,1,0.0829,1
+SST-2,sst2_03321,negative,0,1,0.0829,1
+SST-2,sst2_03400,negative,0,1,0.0829,1
+SST-2,sst2_03409,positive,1,0,-1.4184,1
+SST-2,sst2_03421,positive,1,0,-0.4694,1
+SST-2,sst2_03456,negative,0,1,0.0829,1
+SST-2,sst2_03629,positive,1,0,-2.4650,2
+SST-2,sst2_03685,negative,0,1,0.0829,1
+SST-2,sst2_03742,negative,0,1,0.0829,1
+SST-2,sst2_03850,negative,0,1,0.0829,1
+SST-2,sst2_03905,positive,1,0,-0.6204,1
+SST-2,sst2_03982,negative,0,1,1.1155,1
+SST-2,sst2_04133,negative,0,1,4.6633,3
+SST-2,sst2_04214,negative,0,1,0.0829,1
+SST-2,sst2_04218,negative,0,1,0.0829,1
+SST-2,sst2_04347,negative,0,1,4.6633,3
+SST-2,sst2_04421,positive,1,0,-1.1016,1
+SST-2,sst2_04462,negative,0,1,0.0829,1
+SST-2,sst2_04597,negative,0,1,0.0829,1
+SST-2,sst2_04727,negative,0,1,0.0829,1
+SST-2,sst2_04755,negative,0,1,0.0829,1
+SST-2,sst2_04782,positive,1,0,-0.4694,1
+SST-2,sst2_04815,negative,0,1,0.0829,1
+SST-2,sst2_04827,positive,1,0,-2.6757,2
+ADE,ade_00023,non_ade,0,1,1.3015,1
+ADE,ade_00039,non_ade,0,1,1.4256,1
+ADE,ade_00045,ade,1,0,-0.0464,1
+ADE,ade_00056,non_ade,0,1,1.1450,1
+ADE,ade_00066,non_ade,0,1,1.1547,1
+ADE,ade_00072,non_ade,0,1,1.1547,1
+ADE,ade_00088,non_ade,0,1,1.5724,1
+ADE,ade_00095,non_ade,0,1,1.3015,1
+ADE,ade_00124,non_ade,0,1,0.2872,1
+ADE,ade_00140,non_ade,0,1,0.9982,1
+ADE,ade_00152,non_ade,0,1,0.8519,1
+ADE,ade_00156,non_ade,0,1,2.0262,1
+ADE,ade_00183,non_ade,0,1,1.3902,1
+ADE,ade_00198,non_ade,0,1,1.9333,1
+ADE,ade_00207,non_ade,0,1,1.3893,1
+ADE,ade_00229,non_ade,0,1,1.3902,1
+ADE,ade_00239,non_ade,0,1,1.3015,1
+ADE,ade_00312,non_ade,0,1,1.4256,1
+ADE,ade_00342,non_ade,0,1,1.9333,1
+ADE,ade_00350,non_ade,0,1,1.2603,1
+ADE,ade_00372,non_ade,0,1,1.6965,1
+ADE,ade_00383,non_ade,0,1,1.6661,1
+ADE,ade_00393,non_ade,0,1,1.3015,1
+ADE,ade_00397,non_ade,0,1,1.2793,1
+ADE,ade_00409,non_ade,0,1,1.2434,1
+ADE,ade_00474,non_ade,0,1,1.1183,1
+ADE,ade_00486,non_ade,0,1,0.7764,1
+ADE,ade_00488,non_ade,0,1,1.3015,1
+ADE,ade_00523,non_ade,0,1,0.1941,1
+ADE,ade_00548,non_ade,0,1,1.6612,1
+ADE,ade_00569,non_ade,0,1,0.9005,1
+ADE,ade_00587,non_ade,0,1,0.8251,1
+ADE,ade_00664,non_ade,0,1,1.4256,1
+ADE,ade_00669,non_ade,0,1,1.1450,1
+ADE,ade_00694,non_ade,0,1,1.3015,1
+ADE,ade_00696,non_ade,0,1,1.6121,1
+ADE,ade_00699,non_ade,0,1,0.6375,1
+ADE,ade_00735,non_ade,0,1,1.4989,1
+ADE,ade_00778,non_ade,0,1,2.0262,1
+ADE,ade_00830,non_ade,0,1,1.3015,1
+ADE,ade_00857,non_ade,0,1,1.8698,1
+ADE,ade_00883,non_ade,0,1,1.1183,1
+ADE,ade_00979,non_ade,0,1,0.2869,1
+ADE,ade_00985,non_ade,0,1,1.1183,1
+ADE,ade_01023,non_ade,0,1,1.3015,1
+ADE,ade_01043,non_ade,0,1,1.5233,1
+ADE,ade_01095,non_ade,0,1,1.3015,1
+ADE,ade_01103,non_ade,0,1,1.1183,1
+ADE,ade_01136,non_ade,0,1,1.5337,1
+ADE,ade_01142,non_ade,0,1,1.4256,1
+ADE,ade_01165,non_ade,0,1,1.4989,1
+ADE,ade_01166,non_ade,0,1,1.1547,1
+ADE,ade_01185,non_ade,0,1,1.4256,1
+ADE,ade_01190,non_ade,0,1,1.2425,1
+ADE,ade_01212,non_ade,0,1,1.1183,1
+ADE,ade_01233,non_ade,0,1,0.9894,1
+ADE,ade_01236,non_ade,0,1,1.3680,1
+ADE,ade_01252,non_ade,0,1,1.0473,1
+ADE,ade_01263,non_ade,0,1,1.6965,1
+ADE,ade_01269,non_ade,0,1,0.6375,1
+ADE,ade_01342,non_ade,0,1,1.3992,1
+ADE,ade_01359,non_ade,0,1,1.3875,1
+ADE,ade_01374,non_ade,0,1,1.2425,1
+ADE,ade_01377,non_ade,0,1,0.4906,1
+ADE,ade_01382,non_ade,0,1,1.6612,1
+ADE,ade_01416,non_ade,0,1,1.4796,1
+ADE,ade_01445,non_ade,0,1,1.6612,1
+ADE,ade_01454,non_ade,0,1,1.1325,1
+ADE,ade_01467,non_ade,0,1,1.1325,1
+ADE,ade_01474,non_ade,0,1,1.3327,1
+ADE,ade_01484,non_ade,0,1,1.2524,1
+ADE,ade_01492,non_ade,0,1,1.0255,1
+ADE,ade_01533,non_ade,0,1,1.2793,1
+ADE,ade_01552,non_ade,0,1,1.5724,1
+ADE,ade_01556,non_ade,0,1,1.2424,1
+ADE,ade_01577,non_ade,0,1,1.1183,1
+ADE,ade_01599,non_ade,0,1,1.7943,1
+ADE,ade_01630,non_ade,0,1,1.1626,1
+ADE,ade_01634,ade,1,0,-1.7598,2
+ADE,ade_01639,non_ade,0,1,1.3015,1
+ADE,ade_01651,non_ade,0,1,1.2793,1
+ADE,ade_01656,non_ade,0,1,1.2793,1
+ADE,ade_01659,non_ade,0,1,0.0144,1
+ADE,ade_01727,non_ade,0,1,0.9715,1
+ADE,ade_01749,non_ade,0,1,1.3902,1
+ADE,ade_01762,non_ade,0,1,1.5724,1
+ADE,ade_01770,non_ade,0,1,1.3680,1
+ADE,ade_01779,non_ade,0,1,1.3015,1
+ADE,ade_01796,non_ade,0,1,2.2971,1
+ADE,ade_01813,non_ade,0,1,0.2242,1
+ADE,ade_01820,non_ade,0,1,1.1547,1
+ADE,ade_01850,non_ade,0,1,1.6702,1
+ADE,ade_01867,non_ade,0,1,1.0693,1
+ADE,ade_01894,ade,1,0,-0.2508,1
+ADE,ade_01913,non_ade,0,1,0.4381,1
+ADE,ade_01993,non_ade,0,1,1.4256,1
+ADE,ade_02011,non_ade,0,1,1.2898,1
+ADE,ade_02064,non_ade,0,1,1.3902,1
+ADE,ade_02073,non_ade,0,1,0.6375,1
+ADE,ade_02086,non_ade,0,1,1.2974,1
+ADE,ade_02088,non_ade,0,1,1.4256,1
+ADE,ade_02108,non_ade,0,1,1.4256,1
+ADE,ade_02116,ade,1,0,-1.4647,1
+ADE,ade_02148,non_ade,0,1,1.4256,1
+ADE,ade_02161,non_ade,0,1,1.1183,1
+ADE,ade_02167,non_ade,0,1,0.7352,1
+ADE,ade_02238,non_ade,0,1,1.3064,1
+ADE,ade_02270,non_ade,0,1,2.4025,1
+ADE,ade_02326,non_ade,0,1,1.5724,1
+ADE,ade_02329,non_ade,0,1,1.3015,1
+ADE,ade_02390,non_ade,0,1,0.8593,1
+ADE,ade_02461,non_ade,0,1,1.2086,1
+ADE,ade_02464,non_ade,0,1,0.7352,1
+ADE,ade_02494,non_ade,0,1,1.3015,1
+ADE,ade_02493,non_ade,0,1,1.3680,1
+ADE,ade_02512,non_ade,0,1,1.1626,1
+ADE,ade_02550,non_ade,0,1,0.2245,1
+ADE,ade_02579,non_ade,0,1,1.3015,1
+ADE,ade_02582,non_ade,0,1,1.3554,1
+ADE,ade_02583,non_ade,0,1,1.6965,1
+ADE,ade_02593,non_ade,0,1,1.3992,1
+ADE,ade_02617,non_ade,0,1,1.6612,1
+ADE,ade_02621,non_ade,0,1,1.6965,1
+ADE,ade_02678,non_ade,0,1,1.4256,1
+ADE,ade_02720,non_ade,0,1,0.4110,1
+ADE,ade_02761,non_ade,0,1,1.4256,1
+ADE,ade_02775,non_ade,0,1,1.9333,1
+ADE,ade_02809,non_ade,0,1,1.6612,1
+ADE,ade_02836,non_ade,0,1,1.3015,1
+ADE,ade_02901,non_ade,0,1,1.3015,1
+ADE,ade_02944,non_ade,0,1,1.3992,1
+ADE,ade_02983,non_ade,0,1,1.3015,1
+ADE,ade_03012,non_ade,0,1,1.5724,1
+ADE,ade_03055,non_ade,0,1,1.5233,1
+ADE,ade_03084,non_ade,0,1,1.2974,1
+ADE,ade_03099,non_ade,0,1,1.3015,1
+ADE,ade_03104,non_ade,0,1,1.4256,1
+ADE,ade_03161,non_ade,0,1,1.3902,1
+ADE,ade_03235,non_ade,0,1,1.5724,1
+ADE,ade_03293,non_ade,0,1,0.8694,1
+ADE,ade_03375,ade,1,0,-0.3851,1
+ADE,ade_03405,non_ade,0,1,1.7720,1
+ADE,ade_03476,non_ade,0,1,1.4256,1
+ADE,ade_03523,non_ade,0,1,1.3774,1
+ADE,ade_03533,non_ade,0,1,0.9894,1
+ADE,ade_03568,non_ade,0,1,0.6784,1
+ADE,ade_03597,non_ade,0,1,1.3992,1
+ADE,ade_03608,non_ade,0,1,1.3893,1
+ADE,ade_03637,non_ade,0,1,1.3015,1
+ADE,ade_03643,non_ade,0,1,1.2071,1
+ADE,ade_03652,ade,1,0,-1.4367,1
+ADE,ade_03658,non_ade,0,1,1.3064,1
+ADE,ade_03756,non_ade,0,1,0.9715,1
+ADE,ade_03770,non_ade,0,1,0.9715,1
+ADE,ade_03800,non_ade,0,1,1.3893,1
+ADE,ade_03835,non_ade,0,1,1.4256,1
+ADE,ade_03888,non_ade,0,1,1.4582,1
+ADE,ade_03897,non_ade,0,1,1.3992,1
+ADE,ade_03907,non_ade,0,1,1.3015,1
+ADE,ade_03939,non_ade,0,1,2.1198,1
+ADE,ade_04005,non_ade,0,1,1.0473,1
+ADE,ade_04029,non_ade,0,1,1.4921,1
+ADE,ade_04088,non_ade,0,1,0.1630,1
+ADE,ade_04093,non_ade,0,1,1.1547,1
+ADE,ade_04105,non_ade,0,1,2.2340,1
+ADE,ade_04145,non_ade,0,1,1.3015,1
+ADE,ade_04166,non_ade,0,1,1.6965,1
+ADE,ade_04168,non_ade,0,1,1.1183,1
+ADE,ade_04185,non_ade,0,1,0.8966,1
+ADE,ade_04223,ade,1,0,-0.4027,1
+ADE,ade_04233,non_ade,0,1,1.6702,1
+ADE,ade_04249,ade,1,0,-0.1040,1
+ADE,ade_04267,non_ade,0,1,0.7352,1
+ADE,ade_04275,non_ade,0,1,0.9894,1
+ADE,ade_04356,non_ade,0,1,1.3015,1
+ADE,ade_04398,non_ade,0,1,1.4256,1
+ADE,ade_04406,non_ade,0,1,1.0772,1
+ADE,ade_04441,non_ade,0,1,1.3902,1
+ADE,ade_04473,non_ade,0,1,1.2425,1
+ADE,ade_04493,non_ade,0,1,1.5724,1
+ADE,ade_04504,non_ade,0,1,1.3992,1
+ADE,ade_04527,non_ade,0,1,1.2086,1
+ADE,ade_04531,ade,1,0,-0.2286,1
+ADE,ade_04533,non_ade,0,1,1.0473,1
+ADE,ade_04636,non_ade,0,1,1.3015,1
+ADE,ade_04646,non_ade,0,1,1.1325,1
+ADE,ade_04655,non_ade,0,1,0.7352,1
+ADE,ade_04673,non_ade,0,1,1.6612,1
+ADE,ade_04707,non_ade,0,1,1.0618,1
+ADE,ade_04725,non_ade,0,1,1.4256,1
+ADE,ade_04743,non_ade,0,1,0.8063,1
+ADE,ade_04770,non_ade,0,1,1.3015,1
+ADE,ade_04799,non_ade,0,1,1.2434,1
+ADE,ade_04805,non_ade,0,1,1.5724,1
+ADE,ade_04814,non_ade,0,1,1.2161,1
+ADE,ade_04839,non_ade,0,1,1.0648,1
+ADE,ade_04901,non_ade,0,1,1.2793,1
+ADE,ade_04903,non_ade,0,1,1.1626,1
+ADE,ade_04916,non_ade,0,1,1.3015,1
+ADE,ade_04947,non_ade,0,1,1.4256,1
+ADE,ade_04965,non_ade,0,1,1.6612,1
+ADE,ade_04979,non_ade,0,1,1.5724,1
+Disaster Tweets,disaster_00124,not disaster,0,1,2.7162,3
+Disaster Tweets,disaster_00200,real disaster,1,0,-1.0201,1
+Disaster Tweets,disaster_00234,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_00287,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_00358,real disaster,1,0,-0.1157,1
+Disaster Tweets,disaster_00430,real disaster,1,0,-0.0888,1
+Disaster Tweets,disaster_00478,real disaster,1,0,-2.2629,2
+Disaster Tweets,disaster_00506,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_00531,not disaster,0,1,0.2076,1
+Disaster Tweets,disaster_00552,not disaster,0,1,0.0107,1
+Disaster Tweets,disaster_00560,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_00601,not disaster,0,1,0.4483,1
+Disaster Tweets,disaster_00603,real disaster,1,0,-0.8134,1
+Disaster Tweets,disaster_00614,real disaster,1,0,-0.0611,1
+Disaster Tweets,disaster_00619,real disaster,1,0,-0.5873,1
+Disaster Tweets,disaster_00732,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_00753,real disaster,1,0,-0.0484,1
+Disaster Tweets,disaster_00758,not disaster,0,1,2.9502,3
+Disaster Tweets,disaster_00774,real disaster,1,0,-1.1829,1
+Disaster Tweets,disaster_00787,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_00789,real disaster,1,0,-1.4396,2
+Disaster Tweets,disaster_00806,not disaster,0,1,1.3487,2
+Disaster Tweets,disaster_00821,real disaster,1,0,-0.4418,1
+Disaster Tweets,disaster_00830,not disaster,0,1,1.6166,2
+Disaster Tweets,disaster_00858,real disaster,1,0,-0.7739,1
+Disaster Tweets,disaster_00891,real disaster,1,0,-0.8300,1
+Disaster Tweets,disaster_00895,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_00901,not disaster,0,1,1.2012,1
+Disaster Tweets,disaster_00925,not disaster,0,1,2.4013,3
+Disaster Tweets,disaster_00938,not disaster,0,1,0.0667,1
+Disaster Tweets,disaster_00964,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_00980,real disaster,1,0,-0.3415,1
+Disaster Tweets,disaster_01069,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_01087,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_01139,real disaster,1,0,-0.5174,1
+Disaster Tweets,disaster_01178,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_01180,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_01204,real disaster,1,0,-0.9007,1
+Disaster Tweets,disaster_01230,not disaster,0,1,0.8127,1
+Disaster Tweets,disaster_01288,real disaster,1,0,-1.0275,1
+Disaster Tweets,disaster_01294,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_01341,real disaster,1,0,-0.8134,1
+Disaster Tweets,disaster_01354,not disaster,0,1,1.2943,2
+Disaster Tweets,disaster_01412,not disaster,0,1,1.4567,2
+Disaster Tweets,disaster_01423,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_01468,not disaster,0,1,0.7794,1
+Disaster Tweets,disaster_01473,real disaster,1,0,-0.2001,1
+Disaster Tweets,disaster_01484,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_01511,not disaster,0,1,0.5889,1
+Disaster Tweets,disaster_01514,real disaster,1,0,-2.0103,2
+Disaster Tweets,disaster_01586,not disaster,0,1,0.1638,1
+Disaster Tweets,disaster_01623,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_01633,real disaster,1,0,-0.1057,1
+Disaster Tweets,disaster_01635,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_01687,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_01728,real disaster,1,0,-1.7914,2
+Disaster Tweets,disaster_01746,real disaster,1,0,-0.0148,1
+Disaster Tweets,disaster_01748,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_01792,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_01799,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_01805,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_01810,not disaster,0,1,1.1456,1
+Disaster Tweets,disaster_01847,real disaster,1,0,-0.7391,1
+Disaster Tweets,disaster_01859,real disaster,1,0,-0.6369,1
+Disaster Tweets,disaster_01868,real disaster,1,0,-0.0216,1
+Disaster Tweets,disaster_01887,real disaster,1,0,-1.3026,2
+Disaster Tweets,disaster_01896,real disaster,1,0,-0.9639,1
+Disaster Tweets,disaster_01911,real disaster,1,0,-1.2465,2
+Disaster Tweets,disaster_01966,not disaster,0,1,3.3647,
+Disaster Tweets,disaster_02024,real disaster,1,0,-1.1690,1
+Disaster Tweets,disaster_02059,real disaster,1,0,-1.4227,2
+Disaster Tweets,disaster_02081,real disaster,1,0,-1.2465,2
+Disaster Tweets,disaster_02092,real disaster,1,0,-0.5873,1
+Disaster Tweets,disaster_02104,not disaster,0,1,0.2338,1
+Disaster Tweets,disaster_02132,real disaster,1,0,-0.3584,1
+Disaster Tweets,disaster_02171,not disaster,0,1,0.2338,1
+Disaster Tweets,disaster_02199,not disaster,0,1,2.1797,2
+Disaster Tweets,disaster_02245,not disaster,0,1,0.1298,1
+Disaster Tweets,disaster_02276,real disaster,1,0,-1.7914,2
+Disaster Tweets,disaster_02341,not disaster,0,1,0.0100,1
+Disaster Tweets,disaster_02353,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_02364,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_02368,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02405,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02443,real disaster,1,0,-0.9484,1
+Disaster Tweets,disaster_02450,real disaster,1,0,-0.5596,1
+Disaster Tweets,disaster_02468,real disaster,1,0,-0.9136,1
+Disaster Tweets,disaster_02480,real disaster,1,0,-1.4714,2
+Disaster Tweets,disaster_02491,real disaster,1,0,-1.7914,2
+Disaster Tweets,disaster_02514,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_02549,not disaster,0,1,0.6871,1
+Disaster Tweets,disaster_02564,not disaster,0,1,0.0493,1
+Disaster Tweets,disaster_02600,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_02618,not disaster,0,1,0.1694,1
+Disaster Tweets,disaster_02668,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02710,not disaster,0,1,0.3954,1
+Disaster Tweets,disaster_02718,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02740,real disaster,1,0,-1.9081,2
+Disaster Tweets,disaster_02760,not disaster,0,1,0.2297,1
+Disaster Tweets,disaster_02775,real disaster,1,0,-0.1965,1
+Disaster Tweets,disaster_02787,not disaster,0,1,0.3390,1
+Disaster Tweets,disaster_02792,not disaster,0,1,0.4763,1
+Disaster Tweets,disaster_02823,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02831,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_02854,not disaster,0,1,0.6712,1
+Disaster Tweets,disaster_02860,real disaster,1,0,-0.6440,1
+Disaster Tweets,disaster_02886,not disaster,0,1,1.4921,2
+Disaster Tweets,disaster_02895,real disaster,1,0,-1.3879,2
+Disaster Tweets,disaster_02976,real disaster,1,0,-1.5287,2
+Disaster Tweets,disaster_02975,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_03027,real disaster,1,0,-0.3584,1
+Disaster Tweets,disaster_03028,not disaster,0,1,0.2338,1
+Disaster Tweets,disaster_03044,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_03078,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_03101,not disaster,0,1,2.9348,3
+Disaster Tweets,disaster_03151,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_03154,not disaster,0,1,0.1469,1
+Disaster Tweets,disaster_03222,real disaster,1,0,-1.8190,2
+Disaster Tweets,disaster_03251,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_03254,not disaster,0,1,0.1638,1
+Disaster Tweets,disaster_03277,real disaster,1,0,-1.7842,2
+Disaster Tweets,disaster_03280,not disaster,0,1,1.5568,2
+Disaster Tweets,disaster_03281,real disaster,1,0,-0.7786,1
+Disaster Tweets,disaster_03324,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_03359,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_03387,not disaster,0,1,0.4927,1
+Disaster Tweets,disaster_03405,real disaster,1,0,-1.6013,2
+Disaster Tweets,disaster_03421,real disaster,1,0,-0.8134,1
+Disaster Tweets,disaster_03542,real disaster,1,0,-1.0275,1
+Disaster Tweets,disaster_03671,not disaster,0,1,0.3476,1
+Disaster Tweets,disaster_03731,real disaster,1,0,-0.2769,1
+Disaster Tweets,disaster_03732,not disaster,0,1,1.1848,1
+Disaster Tweets,disaster_03745,real disaster,1,0,-0.3695,1
+Disaster Tweets,disaster_03758,real disaster,1,0,-1.5665,2
+Disaster Tweets,disaster_03795,not disaster,0,1,1.4711,2
+Disaster Tweets,disaster_03829,real disaster,1,0,-0.0950,1
+Disaster Tweets,disaster_03836,not disaster,0,1,0.8167,1
+Disaster Tweets,disaster_03835,real disaster,1,0,-0.2325,1
+Disaster Tweets,disaster_03874,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_03875,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_03892,real disaster,1,0,-0.4539,1
+Disaster Tweets,disaster_03894,not disaster,0,1,2.9461,3
+Disaster Tweets,disaster_03898,real disaster,1,0,-0.0540,1
+Disaster Tweets,disaster_03925,not disaster,0,1,0.6782,1
+Disaster Tweets,disaster_03953,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_04021,not disaster,0,1,0.3828,1
+Disaster Tweets,disaster_04049,not disaster,0,1,1.5487,2
+Disaster Tweets,disaster_04061,not disaster,0,1,3.1247,3
+Disaster Tweets,disaster_04091,real disaster,1,0,-1.4384,2
+Disaster Tweets,disaster_04114,real disaster,1,0,-1.2465,2
+Disaster Tweets,disaster_04146,not disaster,0,1,1.5272,2
+Disaster Tweets,disaster_04183,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_04194,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_04193,real disaster,1,0,-0.9224,1
+Disaster Tweets,disaster_04248,not disaster,0,1,1.5272,2
+Disaster Tweets,disaster_04292,not disaster,0,1,0.1615,1
+Disaster Tweets,disaster_04325,real disaster,1,0,-0.4239,1
+Disaster Tweets,disaster_04375,real disaster,1,0,-1.2457,2
+Disaster Tweets,disaster_04412,not disaster,0,1,0.0556,1
+Disaster Tweets,disaster_04422,not disaster,0,1,3.3183,
+Disaster Tweets,disaster_04483,real disaster,1,0,-1.1690,1
+Disaster Tweets,disaster_04539,real disaster,1,0,-0.8659,1
+Disaster Tweets,disaster_04544,real disaster,1,0,-0.0618,1
+Disaster Tweets,disaster_04593,real disaster,1,0,-0.9051,1
+Disaster Tweets,disaster_04595,real disaster,1,0,-0.6341,1
+Disaster Tweets,disaster_04636,not disaster,0,1,2.9240,3
+Disaster Tweets,disaster_04693,not disaster,0,1,0.8524,2
+Disaster Tweets,disaster_04722,real disaster,1,0,-1.0275,1
+Disaster Tweets,disaster_04737,real disaster,1,0,-0.9504,1
+Disaster Tweets,disaster_04743,not disaster,0,1,0.3954,1
+Disaster Tweets,disaster_04773,real disaster,1,0,-1.5400,2
+Disaster Tweets,disaster_04796,not disaster,0,1,3.2137,
+Disaster Tweets,disaster_04810,not disaster,0,1,0.5823,1
+Disaster Tweets,disaster_04844,real disaster,1,0,-2.0451,2
+Disaster Tweets,disaster_04886,real disaster,1,0,-0.7391,1
+Disaster Tweets,disaster_04890,not disaster,0,1,0.6438,1
+Disaster Tweets,disaster_04892,not disaster,0,1,0.1290,1
+Disaster Tweets,disaster_04913,real disaster,1,0,-0.2001,1
+Disaster Tweets,disaster_04923,not disaster,0,1,1.8453,2
+Disaster Tweets,disaster_04927,real disaster,1,0,-0.0862,1
+Disaster Tweets,disaster_04947,real disaster,1,0,-1.3475,2
+Disaster Tweets,disaster_04967,real disaster,1,0,-0.5201,1
+Disaster Tweets,disaster_04995,real disaster,1,0,-1.6297,2
+Disaster Tweets,disaster_04997,real disaster,1,0,-1.5665,2

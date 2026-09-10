@@ -1,0 +1,5 @@
+Dataset,Audit examples,Feature cells,Feature disagreement rate,Original accuracy,Human-corrected accuracy,Delta accuracy,Original Macro-F1,Human-corrected Macro-F1,Delta Macro-F1,Changed predictions,Errors fixed,Errors introduced,Net fixed errors
+SMS Spam,100,2000,0.0845,0.9500,0.9900,0.0400,0.9500,0.9900,0.0400,4,4,0,4
+SST-2,100,2000,0.1590,0.9500,0.9400,-0.0100,0.9499,0.9400,-0.0099,9,4,5,-1
+ADE,100,2000,0.0835,0.8500,0.8000,-0.0500,0.8488,0.7987,-0.0501,13,4,9,-5
+Disaster Tweets,100,2000,0.1550,0.7500,0.6900,-0.0600,0.7442,0.6875,-0.0568,24,9,15,-6

@@ -1,0 +1,5 @@
+Dataset,Entries,Scored entries,Unclear pairs,Agreement,Cohen's kappa,Positive agreement
+SMS Spam,2000,2000,0,0.9285,0.8241,0.8740
+SST-2,2000,2000,0,0.8655,0.7059,0.8046
+ADE,2000,2000,0,0.8850,0.7053,0.7834
+Disaster Tweets,2000,2000,0,0.8665,0.6604,0.7498

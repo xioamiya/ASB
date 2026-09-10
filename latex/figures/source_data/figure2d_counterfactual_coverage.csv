@@ -1,0 +1,13 @@
+Dataset,Edit budget,Coverage
+SMS Spam,1,0.8276
+SMS Spam,2,0.9655
+SMS Spam,3,1.0
+SST-2,1,0.8125
+SST-2,2,0.875
+SST-2,3,0.9688
+ADE,1,0.995
+ADE,2,1.0
+ADE,3,1.0
+Disaster Tweets,1,0.5217
+Disaster Tweets,2,0.9457
+Disaster Tweets,3,0.9837

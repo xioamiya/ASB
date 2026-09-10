@@ -1,0 +1,9 @@
+Dataset,Input,Method,Embedding model,Accuracy,Macro-F1,Positive F1
+SMS Spam,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,0.9900 ± 0.0000,0.9773 ± 0.0000,0.9603 ± 0.0000
+SMS Spam,raw text,RoBERTa embedding + LR,roberta-base,0.9890 ± 0.0000,0.9749 ± 0.0000,0.9562 ± 0.0000
+SST-2,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,0.8650 ± 0.0000,0.8642 ± 0.0000,0.8749 ± 0.0000
+SST-2,raw text,RoBERTa embedding + LR,roberta-base,0.8970 ± 0.0000,0.8961 ± 0.0000,0.9059 ± 0.0000
+ADE,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,0.8350 ± 0.0000,0.7843 ± 0.0000,0.6796 ± 0.0000
+ADE,raw text,RoBERTa embedding + LR,roberta-base,0.8320 ± 0.0000,0.7783 ± 0.0000,0.6693 ± 0.0000
+Disaster Tweets,raw text,Frozen DistilBERT embedding + LR,distilbert-base-uncased,0.8180 ± 0.0000,0.8139 ± 0.0000,0.7864 ± 0.0000
+Disaster Tweets,raw text,RoBERTa embedding + LR,roberta-base,0.8330 ± 0.0000,0.8290 ± 0.0000,0.8028 ± 0.0000

@@ -1,0 +1,32 @@
+{
+  "disaster_event": [
+    "mentions_disaster_type",
+    "reports_event_occurrence",
+    "describes_threat_or_danger",
+    "mentions_cause_or_trigger"
+  ],
+  "grounding": [
+    "mentions_location",
+    "mentions_time_or_recency",
+    "includes_source_or_report",
+    "first_person_witnessing"
+  ],
+  "severity_damage": [
+    "mentions_casualties_or_injuries",
+    "mentions_property_damage",
+    "mentions_infrastructure_disruption",
+    "mentions_scale_or_intensity"
+  ],
+  "emergency_response": [
+    "calls_for_help",
+    "mentions_rescue_or_emergency_services",
+    "mentions_evacuation_or_shelter",
+    "gives_safety_instruction"
+  ],
+  "figurative_non_disaster": [
+    "uses_metaphor_or_idiom",
+    "refers_to_entertainment_or_sports",
+    "expresses_joke_or_sarcasm",
+    "discusses_non_event_context"
+  ]
+}

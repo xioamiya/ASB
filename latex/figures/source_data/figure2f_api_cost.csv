@@ -1,0 +1,5 @@
+Platform,Model,Datasets,Feature rows,API responses,Input tokens,Output tokens,Total tokens,Currency,Estimated cost,Cost per 1k rows
+DeepSeek,deepseek-v4-flash,ADE; Disaster Tweets,10000,10000,7094383,2630000,9724383,USD,1.2496,0.12496
+OpenAI,gpt-4.1-mini,ADE; Disaster Tweets,10000,10000,6764683,2061781,8826464,USD,6.0047,0.60047
+Qwen,qwen-plus,ADE; Disaster Tweets,10000,10000,6781403,2149891,8931294,USD,1.3969,0.13969
+Google,gemini-2.5-flash,ADE; Disaster Tweets,10000,10000,7294749,10248630,17543379,USD,27.81,2.781

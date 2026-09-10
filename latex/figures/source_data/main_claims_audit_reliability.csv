@@ -1,0 +1,5 @@
+Dataset,Primary human vs ASB agreement,Primary human vs ASB kappa,Primary human vs ASB positive agreement,Human-human agreement,Human-human kappa,Human-human positive agreement
+SMS Spam,0.9155,0.7828,0.8395,0.9285,0.8241,0.874
+SST-2,0.841,0.647,0.7569,0.8655,0.7059,0.8046
+ADE,0.9165,0.7817,0.8374,0.885,0.7053,0.7834
+Disaster Tweets,0.845,0.5791,0.6716,0.8665,0.6604,0.7498

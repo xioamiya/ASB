@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "SMS Spam",
+    "feature_budget": 20,
+    "feature_groups": ["deception", "money", "urgency", "action_request", "personal_normal"],
+    "features_per_group": 4,
+    "feature_type": "binary yes/no",
+    "features": "config/human20/sms_spam_human20_features.json",
+    "groups": "config/human20/sms_spam_human20_feature_groups.json"
+  },
+  {
+    "dataset": "SST-2",
+    "feature_budget": 20,
+    "feature_groups": ["positive_sentiment", "negative_sentiment", "aspect_evaluation", "uncertainty_irony", "recommendation"],
+    "features_per_group": 4,
+    "feature_type": "binary yes/no",
+    "features": "config/human20/sst2_human20_features.json",
+    "groups": "config/human20/sst2_human20_feature_groups.json"
+  },
+  {
+    "dataset": "ADE",
+    "feature_budget": 20,
+    "feature_groups": ["medication", "clinical_event", "causality_temporality", "negation_uncertainty", "non_ade_context"],
+    "features_per_group": 4,
+    "feature_type": "binary yes/no",
+    "features": "config/human20/ade_human20_features.json",
+    "groups": "config/human20/ade_human20_feature_groups.json"
+  },
+  {
+    "dataset": "Disaster Tweets",
+    "feature_budget": 20,
+    "feature_groups": ["disaster_event", "grounding", "severity_damage", "emergency_response", "figurative_non_disaster"],
+    "features_per_group": 4,
+    "feature_type": "binary yes/no",
+    "features": "config/human20/disaster_tweets_human20_features.json",
+    "groups": "config/human20/disaster_tweets_human20_feature_groups.json"
+  }
+]

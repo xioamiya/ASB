@@ -1,0 +1,102 @@
+[
+  {
+    "id": "disaster_alt_c02",
+    "question": "Does the tweet describe a specific incident or harmful event rather than only using disaster-related words generally?",
+    "category": "event_presence"
+  },
+  {
+    "id": "disaster_alt_c04",
+    "question": "Does the tweet warn about a possible, expected, approaching, or ongoing threat to people, places, or infrastructure?",
+    "category": "event_presence"
+  },
+  {
+    "id": "disaster_alt_c06",
+    "question": "Does the tweet describe weather, climate, fire, flood, seismic, or environmental conditions as harmful or dangerous?",
+    "category": "event_presence"
+  },
+  {
+    "id": "disaster_alt_c07",
+    "question": "Does the tweet describe violence, attack, terrorism, riot, war, shooting, bombing, or civil unrest?",
+    "category": "event_presence"
+  },
+  {
+    "id": "disaster_alt_c09",
+    "question": "Does the tweet name a place, region, city, country, street, venue, neighborhood, or other geographic location?",
+    "category": "grounding_evidence"
+  },
+  {
+    "id": "disaster_alt_c10",
+    "question": "Does the tweet cite or resemble information from news, authorities, emergency services, alerts, reports, or external sources?",
+    "category": "grounding_evidence"
+  },
+  {
+    "id": "disaster_alt_c11",
+    "question": "Does the tweet suggest direct witnessing, local presence, personal observation, or first-hand experience of an event?",
+    "category": "grounding_evidence"
+  },
+  {
+    "id": "disaster_alt_c12",
+    "question": "Does the tweet include numbers, counts, measurements, magnitude, affected population, or other quantified impact details?",
+    "category": "grounding_evidence"
+  },
+  {
+    "id": "disaster_alt_c17",
+    "question": "Does the tweet mention people killed, injured, missing, trapped, displaced, threatened, rescued, or otherwise at risk?",
+    "category": "harm_damage"
+  },
+  {
+    "id": "disaster_alt_c18",
+    "question": "Does the tweet mention damaged buildings, vehicles, homes, infrastructure, property, land, or physical destruction?",
+    "category": "harm_damage"
+  },
+  {
+    "id": "disaster_alt_c19",
+    "question": "Does the tweet mention disruption to roads, trains, flights, power, communications, schools, hospitals, or public services?",
+    "category": "harm_damage"
+  },
+  {
+    "id": "disaster_alt_c21",
+    "question": "Does the tweet mention evacuation, shelter, lockdown, closure, rescue, relocation, or movement to safety?",
+    "category": "harm_damage"
+  },
+  {
+    "id": "disaster_alt_c25",
+    "question": "Does the tweet use disaster-related language metaphorically, idiomatically, or as slang rather than to report a real-world event?",
+    "category": "non_event_language"
+  },
+  {
+    "id": "disaster_alt_c26",
+    "question": "Does the tweet refer to movies, games, music, sports, celebrities, jokes, memes, advertising, or fictional events?",
+    "category": "non_event_language"
+  },
+  {
+    "id": "disaster_alt_c27",
+    "question": "Does the tweet mainly express personal emotion, frustration, excitement, fear, or exaggeration without reporting a concrete harmful event?",
+    "category": "non_event_language"
+  },
+  {
+    "id": "disaster_alt_c28",
+    "question": "Does the tweet use humor, sarcasm, hyperbole, mock drama, or playful exaggeration around disaster-related wording?",
+    "category": "non_event_language"
+  },
+  {
+    "id": "disaster_alt_c33",
+    "question": "Does the tweet request help, rescue, donations, aid, volunteers, shelter, information, or urgent support?",
+    "category": "action_information"
+  },
+  {
+    "id": "disaster_alt_c34",
+    "question": "Does the tweet provide a warning, alert, advisory, evacuation notice, safety instruction, or protective action?",
+    "category": "action_information"
+  },
+  {
+    "id": "disaster_alt_c35",
+    "question": "Does the tweet mention a cause, source, trigger, responsible actor, weather condition, accident mechanism, or initiating event?",
+    "category": "action_information"
+  },
+  {
+    "id": "disaster_alt_c38",
+    "question": "Does the tweet report that authorities are investigating, confirming, responding to, or updating an event?",
+    "category": "action_information"
+  }
+]
